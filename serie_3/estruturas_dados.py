@@ -260,7 +260,6 @@ class Grafo():
 
   def e_subgrafo(self, nos_subgrupo: set[str], arestas_subgrupo: set[tuple[str, str, object]]) -> bool:
     for no in nos_subgrupo:
-      print(no)
       if no not in self.nos:
         return False
 
@@ -270,17 +269,8 @@ class Grafo():
 
     return True
 
-
-
-
-
-
-
-
-
-
-
   
+
 
   def matriz_adjacencia_rotulada(self) -> list[list[object]]:
     nos = list(self.nos)
@@ -317,15 +307,6 @@ class Grafo():
     return self.lista_adjacencia
 
   
-  
-
-
-
-
-
-
-
-
 
 
   def print_nos(self) -> None:

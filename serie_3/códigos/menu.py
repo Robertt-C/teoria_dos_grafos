@@ -44,7 +44,8 @@ def menu_operacoes(G: Grafo):
         print("9 - Caminho simples entre dois vértices")
         print("10 - Ciclo que contém um vértice")
         print("11 - Verificar se um grafo é subgrafo de outro")
-        print("12 - Encerrar operações")
+        print("12 - Mostrar 5 subgrafos")
+        print("13 - Encerrar operações")
         escolha = input("Escolha uma opção: ")
 
         if escolha == '1':
@@ -128,6 +129,9 @@ def menu_operacoes(G: Grafo):
                 print("Nenhum é subgrafo do outro.")
 
         elif escolha == '12':
+            G.mostrar_cinco_subgrafos()
+
+        elif escolha == '13':
             print("Encerrando operações.")
             break
 

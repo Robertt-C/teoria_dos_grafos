@@ -1,3 +1,5 @@
+import random
+
 class Grafo():
   def __init__(self) -> None:
     self.nos: set[str] = set()
@@ -6,9 +8,6 @@ class Grafo():
     self.matriz_adjacencia: list[list[object]] = []
     self.matriz_incidencia: list[list[object]] = []
     self.lista_adjacencia: dict[str, list[str]] = {}
-
-
-
 
   def carrega_arquivo_csv(self, caminho: str) -> list[str] | list[list[str]]:
     dados_tratados = []
@@ -23,9 +22,6 @@ class Grafo():
       
       return dados_tratados
   
-
-
-
   def adiciona_no(self, no: str) -> None:
     self.nos.add(no)
 
@@ -290,8 +286,30 @@ class Grafo():
         return False
 
     return True
-
   
+
+  def mostrar_cinco_subgrafos(self) -> None:
+    if len(self.nos) < 2:
+        print("Grafo muito pequeno para gerar subgrafos.")
+        return
+
+    nos_lista = list(self.nos)
+    arestas_lista = list(self.arestas)
+
+    print("\nCinco subgrafos encontrados:")
+
+    for i in range(1, 6):
+        quantidade_nos = random.randint(1, len(nos_lista))
+        nos_subgrafo = set(random.sample(nos_lista, quantidade_nos))
+
+        arestas_subgrafo = set()
+        for aresta in arestas_lista:
+            if aresta[0] in nos_subgrafo and aresta[1] in nos_subgrafo:
+                arestas_subgrafo.add(aresta)
+
+        print(f"\nSubgrafo {i}:")
+        print(f"Nós: {nos_subgrafo}")
+        print(f"Arestas: {arestas_subgrafo}")
 
 
   def matriz_adjacencia_rotulada(self) -> list[list[object]]:

@@ -40,19 +40,34 @@ class Grafo():
     self.arestas.add(aresta_ordenada)
   
 
-  def carrega_arquivo_nos(self, caminho: str) -> None:
-    dados = self.carrega_arquivo_csv(caminho)
+  def carrega_arquivos_nos_e_arestas(self, caminho_nos: str, caminho_arestas: str) -> None:
+    dados_nos = self.carrega_arquivo_csv(caminho_nos)
+    dados_arestas = self.carrega_arquivo_csv(caminho_arestas)
 
-    for linha in dados:
-      for no in linha:
-        self.adiciona_no(no)
+    indice_coluna_rotulo_no = dados_nos[0].index("Label")
+    indice_coluna_id_no = dados_nos[0].index("Id")
+
+    indice_coluna_origem_aresta = dados_arestas[0].index("Source")
+    indice_coluna_destino_aresta = dados_arestas[0].index("Target")
+    indice_coluna_peso_aresta = dados_arestas[0].index("Weight")
+
+    coluna_id_nos = [linha[indice_coluna_id_no] for linha in dados_nos]
 
 
-  def carrega_arquivo_arestas(self, caminho: str) -> None:
-    dados = self.carrega_arquivo_csv(caminho)
+    for linha in range(1, len(dados_nos)):
+      self.adiciona_no(dados_nos[linha][indice_coluna_rotulo_no])
 
-    for linha in dados:
-      self.adiciona_aresta(tuple(linha))
+    for linha in range(1, len(dados_arestas)):
+      id_no_origem = dados_arestas[linha][indice_coluna_origem_aresta]
+      id_no_destino = dados_arestas[linha][indice_coluna_destino_aresta]
+
+      indice_rotulo_no_origem = coluna_id_nos.index(id_no_origem)
+      indice_rotulo_no_destino = coluna_id_nos.index(id_no_destino)
+
+      rotulo_no = dados_nos[indice_rotulo_no_origem][indice_coluna_rotulo_no]
+      rotulo_no_destino = dados_nos[indice_rotulo_no_destino][indice_coluna_rotulo_no]
+
+      self.adiciona_aresta((rotulo_no, rotulo_no_destino, dados_arestas[linha][indice_coluna_peso_aresta]))
 
 
 

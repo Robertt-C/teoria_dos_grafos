@@ -13,9 +13,10 @@ def criar_grafo_manual() -> Grafo:
         escolha = input("Escolha uma opção: ")
         
         if escolha == '1':
-            origem = input("Digite o nó de origem: ")
-            destino = input("Digite o nó de destino: ")
-            grafo.adiciona_aresta((origem, destino))
+            origem = input("Digite o primeiro nó: ")
+            destino = input("Digite o segundo nó: ")
+            peso = input("Digite um peso para esta aresta: ")
+            grafo.adiciona_aresta((origem, destino, peso))
         elif escolha == '2':
             break
         else:
@@ -23,6 +24,11 @@ def criar_grafo_manual() -> Grafo:
 
     return grafo
 
+def ler_arquivos_de_grafos(G: Grafo):
+    nome_arquivo_nos = input("Digite o nome do arquivo contendo nos: ")
+    nome_arquivo_arestas = input("Digite o nome do arquivo contendo arestas: ")
+    G.carrega_arquivos_nos_e_arestas(nome_arquivo_nos, nome_arquivo_arestas)
+    print("\nGrafo carregado com sucesso!")
 
 def menu_operacoes(G: Grafo):
     while True:
@@ -94,9 +100,10 @@ def menu_operacoes(G: Grafo):
                 subG = criar_grafo_manual()
 
             elif escolha_subgrafo == '2':
-                nome_arquivo_prime = input("Digite o nome do arquivo CSV para G': ")
                 subG = Grafo()
-                subG.cria_grafo_com_lista_adjacencia(nome_arquivo_prime)
+                ler_arquivos_de_grafos(subG)
+                print(subG.arestas)
+                print(subG.nos)
 
             else:
                 print("Opção inválida.")
@@ -136,9 +143,7 @@ def menu_principal():
             menu_operacoes(G)
 
         elif opcao == '2':
-            nome_arquivo = input("Digite o nome do arquivo CSV: ")
-            G.cria_grafo_com_lista_adjacencia(nome_arquivo)
-            print("\nGrafo carregado com sucesso!")
+            ler_arquivos_de_grafos(G)
             menu_operacoes(G)
 
         elif opcao == '3':

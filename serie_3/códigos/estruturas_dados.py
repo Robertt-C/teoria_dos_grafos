@@ -69,8 +69,15 @@ class Grafo():
 
       self.adiciona_aresta((rotulo_no, rotulo_no_destino, dados_arestas[linha][indice_coluna_peso_aresta]))
 
+  def mostrar_vertices(self) -> None:
+    print("Vértices:")
+    for vertice in self.nos:
+        print(f"- {vertice}")
 
-
+  def mostrar_arestas(self) -> None:
+    print("Arestas:")
+    for origem, destino, peso in self.arestas:
+        print(f"- {origem} --({peso})-- {destino}")
 
   def cria_matriz_adjacencia(self) -> None:
     nos = list(self.nos)

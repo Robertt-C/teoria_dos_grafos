@@ -33,47 +33,55 @@ def ler_arquivos_de_grafos(G: Grafo):
 def menu_operacoes(G: Grafo):
     while True:
         print("\nMenu de Operações:")
-        print("1 - Número de vértices")
-        print("2 - Número de arestas")
-        print("3 - Vértices adjacentes de um nó")
-        print("4 - Verificar existência de aresta entre dois nós")
-        print("5 - Grau de um vértice")
-        print("6 - Grau de todos os vértices")
-        print("7 - Caminho simples entre dois vértices")
-        print("8 - Ciclo que contém um vértice")
-        print("9 - Verificar se um grafo é subgrafo de outro")
-        print("10 - Encerrar operações")
+        print("1 - Mostrar vértices")
+        print("2 - Mostrar arestas")
+        print("3 - Número de vértices")
+        print("4 - Número de arestas")
+        print("5 - Vértices adjacentes de um nó")
+        print("6 - Verificar existência de aresta entre dois nós")
+        print("7 - Grau de um vértice")
+        print("8 - Grau de todos os vértices")
+        print("9 - Caminho simples entre dois vértices")
+        print("10 - Ciclo que contém um vértice")
+        print("11 - Verificar se um grafo é subgrafo de outro")
+        print("12 - Encerrar operações")
         escolha = input("Escolha uma opção: ")
 
         if escolha == '1':
-            print(f"Número de vértices: {G.numero_nos()}")
+            G.mostrar_vertices()
 
         elif escolha == '2':
-            print(f"Número de arestas: {G.numero_arestas()}")
+            G.mostrar_arestas()
 
         elif escolha == '3':
+            print(f"Número de vértices: {G.numero_nos()}")
+
+        elif escolha == '4':
+            print(f"Número de arestas: {G.numero_arestas()}")
+
+        elif escolha == '5':
             no = input("Digite o vértice: ")
             adjacentes = G.nos_adjacentes(no)
             print(f"Vértices adjacentes a {no}: {adjacentes}")
 
-        elif escolha == '4':
+        elif escolha == '6':
             no1 = input("Digite o primeiro vértice: ")
             no2 = input("Digite o segundo vértice: ")
             existe = G.existe_aresta_entre(no1, no2)
             print("Existe aresta entre os nós." if existe else "Não existe aresta entre os nós.")
 
-        elif escolha == '5':
+        elif escolha == '7':
             no = input("Digite o vértice: ")
             grau = G.grau_no(no)
             print(f"Grau do vértice {no}: {grau}")
 
-        elif escolha == '6':
+        elif escolha == '8':
             graus = G.graus_nos()
             print("Graus dos vértices:")
             for no, grau in graus.items():
                 print(f"{no}: {grau}")
 
-        elif escolha == '7':
+        elif escolha == '9':
             no_inicio = input("Digite o vértice de início: ")
             no_fim = input("Digite o vértice de fim: ")
             caminho = G.caminho_simples_entre(no_inicio, no_fim)
@@ -82,7 +90,7 @@ def menu_operacoes(G: Grafo):
             else:
                 print("Não existe caminho entre os vértices.")
 
-        elif escolha == '8':
+        elif escolha == '10':
             no = input("Digite o vértice: ")
             ciclo = G.ciclo_que_contem_no(no)
             if ciclo:
@@ -90,7 +98,7 @@ def menu_operacoes(G: Grafo):
             else:
                 print("Não existe ciclo envolvendo o vértice.")
 
-        elif escolha == '9':
+        elif escolha == '11':
             print("\n--- Verificar Subgrafo ---")
             print("1 - Digitar grafo G' manualmente")
             print("2 - Ler grafo G' de arquivo")
@@ -119,7 +127,7 @@ def menu_operacoes(G: Grafo):
             else:
                 print("Nenhum é subgrafo do outro.")
 
-        elif escolha == '10':
+        elif escolha == '12':
             print("Encerrando operações.")
             break
 

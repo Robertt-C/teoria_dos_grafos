@@ -27,7 +27,7 @@ if __name__ == "__main__":
   b = 4
   n = 9
   m = 111
-  semente = 3
+  semente = 42
 
   numeros_gerados = linear_congruential_generator(semente, a, b, n, m)
   print(numeros_gerados)

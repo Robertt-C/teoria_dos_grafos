@@ -44,8 +44,9 @@ def menu_operacoes(G: Grafo):
         print("9 - Caminho simples entre dois vértices")
         print("10 - Ciclo que contém um vértice")
         print("11 - Verificar se um grafo é subgrafo de outro")
-        print("12 - Mostrar 5 subgrafos")
-        print("13 - Encerrar operações")
+        print("12 - Verificar se dois grafos são subgrafo de outro e se são disjuntos")
+        print("13 - Mostrar 5 subgrafos")
+        print("14 - Encerrar operações")
         escolha = input("Escolha uma opção: ")
 
         if escolha == '1':
@@ -129,9 +130,66 @@ def menu_operacoes(G: Grafo):
                 print("Nenhum é subgrafo do outro.")
 
         elif escolha == '12':
-            G.mostrar_cinco_subgrafos()
+            print("\n--- Verificar Subgrafos ---")
+            print("1 - Digitar grafo G1' manualmente")
+            print("2 - Ler grafo G1' de arquivo")
+            escolha_subgrafo = input("Escolha uma opção: ")
+
+            if escolha_subgrafo == '1':
+                subG1 = criar_grafo_manual()
+
+            elif escolha_subgrafo == '2':
+                subG1 = Grafo()
+                ler_arquivos_de_grafos(subG1)
+                print(subG1.arestas)
+                print(subG1.nos)
+
+            else:
+                print("Opção inválida.")
+                continue
+
+            print("\n1 - Digitar grafo G2' manualmente")
+            print("2 - Ler grafo G2' de arquivo")
+            escolha_subgrafo = input("Escolha uma opção: ")
+
+            if escolha_subgrafo == '1':
+                subG2 = criar_grafo_manual()
+
+            elif escolha_subgrafo == '2':
+                subG2 = Grafo()
+                ler_arquivos_de_grafos(subG2)
+                print(subG2.arestas)
+                print(subG2.nos)
+
+            else:
+                print("Opção inválida.")
+                continue
+
+            eh_subgrafo_1 = G.e_subgrafo(subG1.nos, subG1.arestas)
+            eh_subgrafo_2 = G.e_subgrafo(subG2.nos, subG2.arestas)
+            eh_disjunto_aresta = subG1.e_disjunto_aresta(subG2.arestas)
+            eh_disjunto_vertice = subG1.e_disjunto_vertice(subG2.nos)
+
+            if eh_subgrafo_1 and eh_subgrafo_2:
+                print("G1' e G2' são subgrafos de G.")
+                if eh_disjunto_aresta:
+                    print("G1' e G2' são disjuntos em arestas")
+                if eh_disjunto_vertice:
+                    print("G1' e G2' são disjuntos em vértices")
+                else:
+                    print("G1' e G2' não são disjuntos")
+            else:
+                if eh_subgrafo_1:
+                    print("G1' é subgrafo de G, mas G2' não é subgrafo de G.")
+                elif eh_subgrafo_2:
+                    print("G2' é subgrafo de G, mas G1' não é subgrafo de G.")
+                else:
+                    print("Nenhum é subgrafo de G.")
 
         elif escolha == '13':
+            G.mostrar_cinco_subgrafos()
+
+        elif escolha == '14':
             print("Encerrando operações.")
             break
 

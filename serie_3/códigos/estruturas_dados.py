@@ -286,7 +286,18 @@ class Grafo():
         return False
 
     return True
-  
+
+  def e_disjunto_aresta(self, arestas_subgrupo: set[tuple[str, str, object]]) -> bool:
+    for aresta in arestas_subgrupo:
+      if aresta in self.arestas:
+        return False
+    return True
+
+  def e_disjunto_vertice(self, nos_subgrupo: set[str]) -> bool:
+    for no in nos_subgrupo:
+      if no in self.nos:
+        return False
+    return True
 
   def mostrar_cinco_subgrafos(self) -> None:
     if len(self.nos) < 2:

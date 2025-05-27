@@ -171,7 +171,7 @@ def menu_operacoes(G: Grafo):
             eh_disjunto_vertice = subG1.e_disjunto_vertice(subG2.nos)
 
             if eh_subgrafo_1 and eh_subgrafo_2:
-                print("G1' e G2' são subgrafos de G.")
+                print("\nG1' e G2' são subgrafos de G.")
                 if eh_disjunto_aresta:
                     print("G1' e G2' são disjuntos em arestas")
                 if eh_disjunto_vertice:
@@ -180,11 +180,11 @@ def menu_operacoes(G: Grafo):
                     print("G1' e G2' não são disjuntos")
             else:
                 if eh_subgrafo_1:
-                    print("G1' é subgrafo de G, mas G2' não é subgrafo de G.")
+                    print("\nG1' é subgrafo de G, mas G2' não é subgrafo de G.")
                 elif eh_subgrafo_2:
-                    print("G2' é subgrafo de G, mas G1' não é subgrafo de G.")
+                    print("\nG2' é subgrafo de G, mas G1' não é subgrafo de G.")
                 else:
-                    print("Nenhum é subgrafo de G.")
+                    print("\nNenhum é subgrafo de G.")
 
         elif escolha == '13':
             G.mostrar_cinco_subgrafos()

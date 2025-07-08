@@ -1,7 +1,7 @@
 import sys
 import itertools
 
-sys.path.insert(0, "../serie_3/códigos")
+sys.path.insert(0, "../serie_3/codigos")
 
 from estruturas_dados import Grafo
 

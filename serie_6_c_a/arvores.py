@@ -128,5 +128,5 @@ if __name__ == "__main__":
     print(e_arvore(g))  # Deve retornar True
     print(e_subgrafo_arvore(g, a1))  # Deve retornar True
     print(e_arvore_abrangencia(g, a1))  # Deve retornar False
-    print(f"Centro(s): {encontrar_centros(g)}")
-    print(f"Excentricidades: {excentricidades(g)}")
+    print(f"Centro(s): {encontrar_centros(g)}") # Deve retornar ['C', 'B']
+    print(f"Excentricidades: {excentricidades(g)}") # Deve retornar {'D': 3, 'C': 2, 'A': 3, 'B': 2}

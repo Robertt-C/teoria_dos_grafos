@@ -1,0 +1,3561 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-07-21">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="size" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Carne de Panela" label="Carne de Panela">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="óleo" label="óleo">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="alho granulado" label="alho granulado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cebola ralada" label="cebola ralada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="coxão mole em bifes" label="coxão mole em bifes">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cenoura picada" label="cenoura picada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pimentão picado" label="pimentão picado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="massa de tomate" label="massa de tomate">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="tomate sem sementes picado" label="tomate sem sementes picado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pimenta-do-reino" label="pimenta-do-reino">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="orégano" label="orégano">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="sal" label="sal">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="água" label="água">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="salsa desidratada" label="salsa desidratada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Carne Louca de Festa" label="Carne Louca de Festa">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="miolo de acém" label="miolo de acém">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="caldo de carne" label="caldo de carne">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="azeite" label="azeite">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pimentão vermelho" label="pimentão vermelho">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pimentão verde" label="pimentão verde">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cebola grande" label="cebola grande">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="alho" label="alho">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="molho de tomate pronto" label="molho de tomate pronto">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Sanduíche de Rabada" label="Sanduíche de Rabada">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="cebola picada" label="cebola picada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="rabo bovino" label="rabo bovino">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="folha de louro" label="folha de louro">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="tomate picado" label="tomate picado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="alho picado" label="alho picado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="salsa" label="salsa">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="páprica picante" label="páprica picante">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="queijo" label="queijo">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="agrião" label="agrião">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Maminha na Cerveja Preta" label="Maminha na Cerveja Preta">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="maminha" label="maminha">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="molho de tomate" label="molho de tomate">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cerveja preta" label="cerveja preta">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="creme de cebola" label="creme de cebola">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Costela na Panela de Pressão" label="Costela na Panela de Pressão">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="costela bovina" label="costela bovina">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cebolas em rodelas" label="cebolas em rodelas">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pimenta-de-cheiro" label="pimenta-de-cheiro">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="bacon sem pele" label="bacon sem pele">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Carne Moída Simples" label="Carne Moída Simples">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="carne moída" label="carne moída">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cebola" label="cebola">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="alho amassado" label="alho amassado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="extrato de tomate" label="extrato de tomate">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="coentro" label="coentro">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="tempero completo" label="tempero completo">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Strogonoff de Carne" label="Strogonoff de Carne">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="margarina" label="margarina">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="coxão-mole em tiras" label="coxão-mole em tiras">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="água fervente" label="água fervente">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="catchup" label="catchup">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="molho inglês" label="molho inglês">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="mostarda" label="mostarda">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="champignon em conserva" label="champignon em conserva">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="creme de leite" label="creme de leite">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Escondidinho com Carne Seca" label="Escondidinho com Carne Seca">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="carne seca" label="carne seca">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="mandioca" label="mandioca">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cheiro-verde" label="cheiro-verde">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="requeijão" label="requeijão">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="leite" label="leite">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Picadinho de Carne Simples" label="Picadinho de Carne Simples">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="patinho em cubos" label="patinho em cubos">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="farinha de trigo" label="farinha de trigo">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="manteiga" label="manteiga">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="vinho tinto" label="vinho tinto">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="tomate pelado" label="tomate pelado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Bife à Parmegiana" label="Bife à Parmegiana">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="carne para bife" label="carne para bife">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="ovo" label="ovo">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="farinha de rosca" label="farinha de rosca">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="queijo mussarela" label="queijo mussarela">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Lombo Assado" label="Lombo Assado">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="laranja" label="laranja">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="lombo de porco" label="lombo de porco">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="maionese" label="maionese">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="azeite extra virgem" label="azeite extra virgem">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Empadão de Frango" label="Empadão de Frango">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="peito de frango desfiado" label="peito de frango desfiado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="caldo de galinha" label="caldo de galinha">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="azeitonas verdes" label="azeitonas verdes">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="milho verde" label="milho verde">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="gema" label="gema">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Lasanha de Frango com Queijo" label="Lasanha de Frango com Queijo">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="massa de lasanha" label="massa de lasanha">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="presunto" label="presunto">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="mussarela ralada" label="mussarela ralada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="noz-moscada" label="noz-moscada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Coxinha de Frango com Catupiri" label="Coxinha de Frango com Catupiri">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="pimenta vermelha" label="pimenta vermelha">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="colorífico" label="colorífico">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="salsinha picada" label="salsinha picada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="catupiri" label="catupiri">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="clara de ovo" label="clara de ovo">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Torta de Frango Gratinada" label="Torta de Frango Gratinada">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="queijo parmesão" label="queijo parmesão">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="fermento em pó" label="fermento em pó">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="tomilho" label="tomilho">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="água gelada" label="água gelada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="clara" label="clara">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="brócolis" label="brócolis">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="colorau" label="colorau">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="tomate-cereja" label="tomate-cereja">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="frango desfiado" label="frango desfiado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="milho" label="milho">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Strogonoff de Frango" label="Strogonoff de Frango">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="peito de frango" label="peito de frango">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="champignon" label="champignon">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="ketchup" label="ketchup">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Bobó de Frango" label="Bobó de Frango">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="tomate sem pele" label="tomate sem pele">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="mandioca cozida" label="mandioca cozida">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="leite de coco" label="leite de coco">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="azeite de dendê" label="azeite de dendê">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Gratinado de Frango" label="Gratinado de Frango">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="queijo ralado" label="queijo ralado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="manteiga derretida" label="manteiga derretida">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Fricassê de Frango Fácil" label="Fricassê de Frango Fácil">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="azeitonas" label="azeitonas">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="requeijão cremoso" label="requeijão cremoso">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="batata palha" label="batata palha">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pimenta" label="pimenta">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Salpicão de Frango" label="Salpicão de Frango">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="peito de frango cozido e desfiado" label="peito de frango cozido e desfiado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cebola picadinha" label="cebola picadinha">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="maçã picada" label="maçã picada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="uva passa" label="uva passa">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cenoura ralada" label="cenoura ralada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Torta de Frango de Liquidificador" label="Torta de Frango de Liquidificador">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="óleo de soja" label="óleo de soja">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="fermento químico em pó" label="fermento químico em pó">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="palmito" label="palmito">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="ervilha" label="ervilha">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="alecrim" label="alecrim">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="milho em conserva" label="milho em conserva">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Frango Xadrez" label="Frango Xadrez">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="filé de frango em cubos" label="filé de frango em cubos">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="amido de milho" label="amido de milho">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="amendoim sem casca" label="amendoim sem casca">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="gengibre fresco" label="gengibre fresco">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cebolinha verde" label="cebolinha verde">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="glutamato monossódico" label="glutamato monossódico">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="óleo de gergelim" label="óleo de gergelim">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="molho de soja" label="molho de soja">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="açúcar" label="açúcar">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Empadinha de Frango" label="Empadinha de Frango">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="tomate" label="tomate">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="casca de limão" label="casca de limão">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cravo-da-índia" label="cravo-da-índia">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="salsinha" label="salsinha">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="ovos" label="ovos">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="gemas" label="gemas">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Frango Assado com Batatas (simples)" label="Frango Assado com Batatas (simples)">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="frango em pedaços" label="frango em pedaços">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="batatas" label="batatas">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="tempero para aves" label="tempero para aves">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Frango à Passarinho de Forno" label="Frango à Passarinho de Forno">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="frango cortado à passarinho" label="frango cortado à passarinho">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="páprica doce" label="páprica doce">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cominho" label="cominho">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="limão" label="limão">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Frango com Quiabo" label="Frango com Quiabo">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="frango inteiro" label="frango inteiro">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="limões" label="limões">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pimentão" label="pimentão">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="quiabo" label="quiabo">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cominho em pó" label="cominho em pó">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Frango Assado com Laranja" label="Frango Assado com Laranja">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="frango" label="frango">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="laranjas" label="laranjas">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="vinho branco" label="vinho branco">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Moqueca de Peixe" label="Moqueca de Peixe">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="postas de cação ou garoupa" label="postas de cação ou garoupa">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="suco de limão" label="suco de limão">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cebola em rodelas" label="cebola em rodelas">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pimentão vermelho em rodelas" label="pimentão vermelho em rodelas">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pimentão verde em rodelas" label="pimentão verde em rodelas">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="tomate em rodelas" label="tomate em rodelas">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="caldo de camarão" label="caldo de camarão">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Petisco de Peixe" label="Petisco de Peixe">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="batata cozida" label="batata cozida">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="peixe (tilápia) grelhado desfiado" label="peixe (tilápia) grelhado desfiado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cebolinha" label="cebolinha">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Isca de Peixe" label="Isca de Peixe">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="filé de cação" label="filé de cação">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="fubá" label="fubá">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Falsa Bacalhoada" label="Falsa Bacalhoada">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="filé de merluza" label="filé de merluza">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="azeitonas pretas" label="azeitonas pretas">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Peixe ao Forno com Legumes" label="Peixe ao Forno com Legumes">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="pimentão amarelo" label="pimentão amarelo">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="filé de peixe panga" label="filé de peixe panga">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="alcaparras" label="alcaparras">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="grão de bico" label="grão de bico">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Filé de Peixe ao Forno" label="Filé de Peixe ao Forno">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="filé de pintado" label="filé de pintado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="shoyu" label="shoyu">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Salmão ao Molho de Alcaparras" label="Salmão ao Molho de Alcaparras">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="filé de salmão" label="filé de salmão">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="filé de anchovas" label="filé de anchovas">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="alcaparra" label="alcaparra">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Bobó de Camarão" label="Bobó de Camarão">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="cascas e cabeças de camarão" label="cascas e cabeças de camarão">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="sementes de coentro" label="sementes de coentro">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="camarão limpo" label="camarão limpo">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pimenta dedo-de-moça" label="pimenta dedo-de-moça">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="caldo de limão" label="caldo de limão">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="ramos de coentro" label="ramos de coentro">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Bacalhoada" label="Bacalhoada">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="lombo de bacalhau" label="lombo de bacalhau">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="batata asterix" label="batata asterix">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cabeça de alho" label="cabeça de alho">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="azeitona verde" label="azeitona verde">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Moqueca de Peixe com Pirão" label="Moqueca de Peixe com Pirão">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="peixe (corvina)" label="peixe (corvina)">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="camarão seco" label="camarão seco">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="farinha de mandioca" label="farinha de mandioca">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Peixe à Delícia" label="Peixe à Delícia">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="filé de pargo" label="filé de pargo">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="banana prata" label="banana prata">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="molho branco" label="molho branco">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Lasanha de Berinjela" label="Lasanha de Berinjela">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="berinjelas" label="berinjelas">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="azeitonas sem caroço" label="azeitonas sem caroço">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="queijo mussarela fatiado" label="queijo mussarela fatiado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="presunto fatiado" label="presunto fatiado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="catupiry" label="catupiry">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Quibe de Abóbora" label="Quibe de Abóbora">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="abóbora moranga" label="abóbora moranga">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="trigo para kibe" label="trigo para kibe">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="canela-da-china em pó" label="canela-da-china em pó">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Moqueca de Banana-da-Terra" label="Moqueca de Banana-da-Terra">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="banana-da-terra" label="banana-da-terra">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="raiz de coentro" label="raiz de coentro">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Feijoada Vegetariana" label="Feijoada Vegetariana">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="feijão preto" label="feijão preto">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="abóbora de pescoço" label="abóbora de pescoço">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cenoura" label="cenoura">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="proteína de soja grossa" label="proteína de soja grossa">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Risoto de Cogumelos (vegetariano)" label="Risoto de Cogumelos (vegetariano)">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="arroz" label="arroz">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="caldo de legumes" label="caldo de legumes">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cogumelos fatiados" label="cogumelos fatiados">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="queijo parmesão ralado" label="queijo parmesão ralado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Arroz de Couve-Flor" label="Arroz de Couve-Flor">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="couve-flor" label="couve-flor">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Torta de Liquidificador de Legumes" label="Torta de Liquidificador de Legumes">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="seleta de legumes congelada" label="seleta de legumes congelada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cebola congelada" label="cebola congelada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Tofu com Broa" label="Tofu com Broa">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="tofu" label="tofu">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="broa de milho" label="broa de milho">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="alho francês" label="alho francês">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="couve coração" label="couve coração">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="sal marinho" label="sal marinho">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cúrcuma" label="cúrcuma">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="sumo de limão" label="sumo de limão">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="levedura de cerveja" label="levedura de cerveja">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Ratatouille no Forno" label="Ratatouille no Forno">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="pimento verde" label="pimento verde">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="curgete" label="curgete">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cebola roxa" label="cebola roxa">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cebola branca" label="cebola branca">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="orégãos" label="orégãos">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pimenta preta" label="pimenta preta">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Couve-Flor Gratinada" label="Couve-Flor Gratinada">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="mussarela" label="mussarela">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="tomate picadinho" label="tomate picadinho">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Mousse de Chocolate Vegano" label="Mousse de Chocolate Vegano">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="abacate" label="abacate">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cacau em pó" label="cacau em pó">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="canela em pó" label="canela em pó">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="melado de cana" label="melado de cana">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="essência de baunilha" label="essência de baunilha">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Salada de Grão de Bico e Atum" label="Salada de Grão de Bico e Atum">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="grão de bico cozido" label="grão de bico cozido">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="tomate cereja" label="tomate cereja">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="atum em água" label="atum em água">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Salada de Macarrão com Atum e Maionese" label="Salada de Macarrão com Atum e Maionese">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="macarrão parafuso" label="macarrão parafuso">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="atum ralado" label="atum ralado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="muçarela" label="muçarela">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pimenta do reino" label="pimenta do reino">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cheiro verde" label="cheiro verde">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Salada de Maionese Simples" label="Salada de Maionese Simples">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="cenouras" label="cenouras">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="aji-no-moto" label="aji-no-moto">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="páprica" label="páprica">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Salada Caesar" label="Salada Caesar">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="pão amanhecido" label="pão amanhecido">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="alface-romana" label="alface-romana">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="maionese caseira" label="maionese caseira">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="filé de anchova" label="filé de anchova">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Salada Colorida" label="Salada Colorida">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="alface americana" label="alface americana">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pepino japonês" label="pepino japonês">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="beterraba" label="beterraba">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="tomate sweet grape" label="tomate sweet grape">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="ovos de codorna" label="ovos de codorna">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Cuscuz Marroquino com Legumes" label="Cuscuz Marroquino com Legumes">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="salsão" label="salsão">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="gengibre em pó" label="gengibre em pó">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pimenta chilli" label="pimenta chilli">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cuscuz marroquino" label="cuscuz marroquino">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="abóbora japonesa" label="abóbora japonesa">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="abobrinha" label="abobrinha">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="vagem holandesa" label="vagem holandesa">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="grão-de-bico cozido" label="grão-de-bico cozido">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Caldo Verde" label="Caldo Verde">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="linguiça portuguesa" label="linguiça portuguesa">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="água quente" label="água quente">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="caldo de bacon" label="caldo de bacon">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="couve-manteiga" label="couve-manteiga">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cebolinha-verde" label="cebolinha-verde">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Sopa de Mandioquinha com Carne Seca" label="Sopa de Mandioquinha com Carne Seca">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="mandioquinha" label="mandioquinha">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="carne seca desfiada" label="carne seca desfiada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pimenta de cheiro" label="pimenta de cheiro">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Sopa de Abóbora com Gengibre" label="Sopa de Abóbora com Gengibre">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="Canja de Galinha Nutritiva" label="Canja de Galinha Nutritiva">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="alho-poró" label="alho-poró">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="abobrinha ralada" label="abobrinha ralada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="batata picada" label="batata picada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="quinoa mista" label="quinoa mista">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="salsa picada" label="salsa picada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Sopa de Feijão com Macarrão" label="Sopa de Feijão com Macarrão">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="feijão cozido" label="feijão cozido">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="macarrão" label="macarrão">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cenoura em cubinhos" label="cenoura em cubinhos">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Sopa de Cebola" label="Sopa de Cebola">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="batatas pré-cozidas" label="batatas pré-cozidas">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="cebola fatiada" label="cebola fatiada">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Sopa de Capeletti" label="Sopa de Capeletti">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="capeletti" label="capeletti">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Sopa de Tomate com Manjericão" label="Sopa de Tomate com Manjericão">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="manjericão" label="manjericão">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="suco de laranja" label="suco de laranja">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="rum" label="rum">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Pão de Queijo de Liquidificador" label="Pão de Queijo de Liquidificador">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="polvilho doce" label="polvilho doce">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Coxinha Simples" label="Coxinha Simples">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="Enroladinho de Salsicha Fácil" label="Enroladinho de Salsicha Fácil">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="salsicha" label="salsicha">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="massa para pastel" label="massa para pastel">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="óleo de milho" label="óleo de milho">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Esfiha Aberta Tipo Habib's" label="Esfiha Aberta Tipo Habib's">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="fermento biológico seco" label="fermento biológico seco">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="açúcar refinado" label="açúcar refinado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="água morna" label="água morna">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="queijo branco" label="queijo branco">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="hortelã" label="hortelã">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Pão de Alho Caseiro" label="Pão de Alho Caseiro">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="pão francês" label="pão francês">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Croquete de Carne" label="Croquete de Carne">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="batata" label="batata">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="carne moída cozida" label="carne moída cozida">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Bolo de Cenoura com Cobertura de Brigadeiro" label="Bolo de Cenoura com Cobertura de Brigadeiro">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="leite condensado" label="leite condensado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="chocolate em pó" label="chocolate em pó">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="chocolate granulado" label="chocolate granulado">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Pudim de Leite Condensado Nestlé" label="Pudim de Leite Condensado Nestlé">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="Brigadeirão Cremoso" label="Brigadeirão Cremoso">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="leite de vaca" label="leite de vaca">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Quindim Fácil" label="Quindim Fácil">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="coco ralado seco" label="coco ralado seco">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="margarina derretida" label="margarina derretida">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="gemas de ovo" label="gemas de ovo">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="corante alimentício amarelo" label="corante alimentício amarelo">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Manjar de Coco com Calda de Ameixa" label="Manjar de Coco com Calda de Ameixa">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="maisena" label="maisena">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="ameixas pretas" label="ameixas pretas">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Bolo de Fubá com Compota de Goiaba" label="Bolo de Fubá com Compota de Goiaba">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="goiaba vermelha" label="goiaba vermelha">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="açúcar cristal" label="açúcar cristal">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="canela" label="canela">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="fubá mimoso" label="fubá mimoso">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="sementes de erva-doce" label="sementes de erva-doce">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Bolinho de Chuva" label="Bolinho de Chuva">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="Torta de Limão Clássica com Merengue" label="Torta de Limão Clássica com Merengue">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="raspas de casca de limão" label="raspas de casca de limão">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="claras" label="claras">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Bolo de Chocolate Molhado" label="Bolo de Chocolate Molhado">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="tablete de chocolate" label="tablete de chocolate">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="açúcar em pó" label="açúcar em pó">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Farofa de Banana-da-Terra" label="Farofa de Banana-da-Terra">
+        <viz:color r="0" g="100" b="255" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="prato" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="farinha de milho amarela" label="farinha de milho amarela">
+        <viz:color r="0" g="200" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="ingrediente" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Carne de Panela" target="óleo" id="0" />
+      <edge source="Carne de Panela" target="alho granulado" id="1" />
+      <edge source="Carne de Panela" target="cebola ralada" id="2" />
+      <edge source="Carne de Panela" target="coxão mole em bifes" id="3" />
+      <edge source="Carne de Panela" target="cenoura picada" id="4" />
+      <edge source="Carne de Panela" target="pimentão picado" id="5" />
+      <edge source="Carne de Panela" target="massa de tomate" id="6" />
+      <edge source="Carne de Panela" target="tomate sem sementes picado" id="7" />
+      <edge source="Carne de Panela" target="pimenta-do-reino" id="8" />
+      <edge source="Carne de Panela" target="orégano" id="9" />
+      <edge source="Carne de Panela" target="sal" id="10" />
+      <edge source="Carne de Panela" target="água" id="11" />
+      <edge source="Carne de Panela" target="salsa desidratada" id="12" />
+      <edge source="óleo" target="Sanduíche de Rabada" id="13" />
+      <edge source="óleo" target="Carne Moída Simples" id="14" />
+      <edge source="óleo" target="Picadinho de Carne Simples" id="15" />
+      <edge source="óleo" target="Bife à Parmegiana" id="16" />
+      <edge source="óleo" target="Coxinha de Frango com Catupiri" id="17" />
+      <edge source="óleo" target="Peixe à Delícia" id="18" />
+      <edge source="óleo" target="Torta de Liquidificador de Legumes" id="19" />
+      <edge source="óleo" target="Canja de Galinha Nutritiva" id="20" />
+      <edge source="óleo" target="Coxinha Simples" id="21" />
+      <edge source="óleo" target="Croquete de Carne" id="22" />
+      <edge source="óleo" target="Bolo de Cenoura com Cobertura de Brigadeiro" id="23" />
+      <edge source="óleo" target="Bolo de Fubá com Compota de Goiaba" id="24" />
+      <edge source="óleo" target="Bolinho de Chuva" id="25" />
+      <edge source="óleo" target="Farofa de Banana-da-Terra" id="26" />
+      <edge source="cebola ralada" target="Picadinho de Carne Simples" id="27" />
+      <edge source="pimenta-do-reino" target="Sanduíche de Rabada" id="28" />
+      <edge source="pimenta-do-reino" target="Maminha na Cerveja Preta" id="29" />
+      <edge source="pimenta-do-reino" target="Picadinho de Carne Simples" id="30" />
+      <edge source="pimenta-do-reino" target="Lasanha de Frango com Queijo" id="31" />
+      <edge source="pimenta-do-reino" target="Torta de Frango Gratinada" id="32" />
+      <edge source="pimenta-do-reino" target="Strogonoff de Frango" id="33" />
+      <edge source="pimenta-do-reino" target="Bobó de Frango" id="34" />
+      <edge source="pimenta-do-reino" target="Torta de Frango de Liquidificador" id="35" />
+      <edge source="pimenta-do-reino" target="Empadinha de Frango" id="36" />
+      <edge source="pimenta-do-reino" target="Frango com Quiabo" id="37" />
+      <edge source="pimenta-do-reino" target="Petisco de Peixe" id="38" />
+      <edge source="pimenta-do-reino" target="Isca de Peixe" id="39" />
+      <edge source="pimenta-do-reino" target="Falsa Bacalhoada" id="40" />
+      <edge source="pimenta-do-reino" target="Peixe ao Forno com Legumes" id="41" />
+      <edge source="pimenta-do-reino" target="Filé de Peixe ao Forno" id="42" />
+      <edge source="pimenta-do-reino" target="Bobó de Camarão" id="43" />
+      <edge source="pimenta-do-reino" target="Bacalhoada" id="44" />
+      <edge source="pimenta-do-reino" target="Quibe de Abóbora" id="45" />
+      <edge source="pimenta-do-reino" target="Torta de Liquidificador de Legumes" id="46" />
+      <edge source="pimenta-do-reino" target="Sopa de Tomate com Manjericão" id="47" />
+      <edge source="pimenta-do-reino" target="Croquete de Carne" id="48" />
+      <edge source="pimenta-do-reino" target="Farofa de Banana-da-Terra" id="49" />
+      <edge source="orégano" target="Bife à Parmegiana" id="50" />
+      <edge source="orégano" target="Lombo Assado" id="51" />
+      <edge source="orégano" target="Salada de Macarrão com Atum e Maionese" id="52" />
+      <edge source="orégano" target="Salada de Maionese Simples" id="53" />
+      <edge source="orégano" target="Caldo Verde" id="54" />
+      <edge source="sal" target="Carne Louca de Festa" id="55" />
+      <edge source="sal" target="Sanduíche de Rabada" id="56" />
+      <edge source="sal" target="Maminha na Cerveja Preta" id="57" />
+      <edge source="sal" target="Costela na Panela de Pressão" id="58" />
+      <edge source="sal" target="Escondidinho com Carne Seca" id="59" />
+      <edge source="sal" target="Picadinho de Carne Simples" id="60" />
+      <edge source="sal" target="Bife à Parmegiana" id="61" />
+      <edge source="sal" target="Lombo Assado" id="62" />
+      <edge source="sal" target="Lasanha de Frango com Queijo" id="63" />
+      <edge source="sal" target="Coxinha de Frango com Catupiri" id="64" />
+      <edge source="sal" target="Torta de Frango Gratinada" id="65" />
+      <edge source="sal" target="Strogonoff de Frango" id="66" />
+      <edge source="sal" target="Bobó de Frango" id="67" />
+      <edge source="sal" target="Fricassê de Frango Fácil" id="68" />
+      <edge source="sal" target="Salpicão de Frango" id="69" />
+      <edge source="sal" target="Torta de Frango de Liquidificador" id="70" />
+      <edge source="sal" target="Frango Xadrez" id="71" />
+      <edge source="sal" target="Empadinha de Frango" id="72" />
+      <edge source="sal" target="Frango Assado com Batatas (simples)" id="73" />
+      <edge source="sal" target="Frango à Passarinho de Forno" id="74" />
+      <edge source="sal" target="Frango com Quiabo" id="75" />
+      <edge source="sal" target="Frango Assado com Laranja" id="76" />
+      <edge source="sal" target="Petisco de Peixe" id="77" />
+      <edge source="sal" target="Isca de Peixe" id="78" />
+      <edge source="sal" target="Falsa Bacalhoada" id="79" />
+      <edge source="sal" target="Peixe ao Forno com Legumes" id="80" />
+      <edge source="sal" target="Salmão ao Molho de Alcaparras" id="81" />
+      <edge source="sal" target="Bobó de Camarão" id="82" />
+      <edge source="sal" target="Bacalhoada" id="83" />
+      <edge source="sal" target="Moqueca de Peixe com Pirão" id="84" />
+      <edge source="sal" target="Peixe à Delícia" id="85" />
+      <edge source="sal" target="Quibe de Abóbora" id="86" />
+      <edge source="sal" target="Moqueca de Banana-da-Terra" id="87" />
+      <edge source="sal" target="Feijoada Vegetariana" id="88" />
+      <edge source="sal" target="Arroz de Couve-Flor" id="89" />
+      <edge source="sal" target="Torta de Liquidificador de Legumes" id="90" />
+      <edge source="sal" target="Ratatouille no Forno" id="91" />
+      <edge source="sal" target="Salada de Grão de Bico e Atum" id="92" />
+      <edge source="sal" target="Salada de Macarrão com Atum e Maionese" id="93" />
+      <edge source="sal" target="Salada de Maionese Simples" id="94" />
+      <edge source="sal" target="Salada Caesar" id="95" />
+      <edge source="sal" target="Salada Colorida" id="96" />
+      <edge source="sal" target="Cuscuz Marroquino com Legumes" id="97" />
+      <edge source="sal" target="Sopa de Mandioquinha com Carne Seca" id="98" />
+      <edge source="sal" target="Sopa de Abóbora com Gengibre" id="99" />
+      <edge source="sal" target="Sopa de Cebola" id="100" />
+      <edge source="sal" target="Sopa de Tomate com Manjericão" id="101" />
+      <edge source="sal" target="Pão de Queijo de Liquidificador" id="102" />
+      <edge source="sal" target="Coxinha Simples" id="103" />
+      <edge source="sal" target="Esfiha Aberta Tipo Habib's" id="104" />
+      <edge source="sal" target="Croquete de Carne" id="105" />
+      <edge source="sal" target="Bolo de Fubá com Compota de Goiaba" id="106" />
+      <edge source="sal" target="Farofa de Banana-da-Terra" id="107" />
+      <edge source="água" target="Sanduíche de Rabada" id="108" />
+      <edge source="água" target="Carne Moída Simples" id="109" />
+      <edge source="água" target="Picadinho de Carne Simples" id="110" />
+      <edge source="água" target="Coxinha de Frango com Catupiri" id="111" />
+      <edge source="água" target="Gratinado de Frango" id="112" />
+      <edge source="água" target="Torta de Frango de Liquidificador" id="113" />
+      <edge source="água" target="Frango Xadrez" id="114" />
+      <edge source="água" target="Bobó de Camarão" id="115" />
+      <edge source="água" target="Moqueca de Banana-da-Terra" id="116" />
+      <edge source="água" target="Risoto de Cogumelos (vegetariano)" id="117" />
+      <edge source="água" target="Salada Caesar" id="118" />
+      <edge source="água" target="Sopa de Feijão com Macarrão" id="119" />
+      <edge source="água" target="Enroladinho de Salsicha Fácil" id="120" />
+      <edge source="água" target="Manjar de Coco com Calda de Ameixa" id="121" />
+      <edge source="água" target="Bolo de Fubá com Compota de Goiaba" id="122" />
+      <edge source="Carne Louca de Festa" target="miolo de acém" id="123" />
+      <edge source="Carne Louca de Festa" target="caldo de carne" id="124" />
+      <edge source="Carne Louca de Festa" target="azeite" id="125" />
+      <edge source="Carne Louca de Festa" target="pimentão vermelho" id="126" />
+      <edge source="Carne Louca de Festa" target="pimentão verde" id="127" />
+      <edge source="Carne Louca de Festa" target="cebola grande" id="128" />
+      <edge source="Carne Louca de Festa" target="alho" id="129" />
+      <edge source="Carne Louca de Festa" target="molho de tomate pronto" id="130" />
+      <edge source="caldo de carne" target="Strogonoff de Carne" id="131" />
+      <edge source="caldo de carne" target="Sopa de Feijão com Macarrão" id="132" />
+      <edge source="caldo de carne" target="Sopa de Cebola" id="133" />
+      <edge source="caldo de carne" target="Sopa de Tomate com Manjericão" id="134" />
+      <edge source="azeite" target="Maminha na Cerveja Preta" id="135" />
+      <edge source="azeite" target="Escondidinho com Carne Seca" id="136" />
+      <edge source="azeite" target="Coxinha de Frango com Catupiri" id="137" />
+      <edge source="azeite" target="Torta de Frango Gratinada" id="138" />
+      <edge source="azeite" target="Bobó de Frango" id="139" />
+      <edge source="azeite" target="Salpicão de Frango" id="140" />
+      <edge source="azeite" target="Frango à Passarinho de Forno" id="141" />
+      <edge source="azeite" target="Frango com Quiabo" id="142" />
+      <edge source="azeite" target="Petisco de Peixe" id="143" />
+      <edge source="azeite" target="Falsa Bacalhoada" id="144" />
+      <edge source="azeite" target="Peixe ao Forno com Legumes" id="145" />
+      <edge source="azeite" target="Filé de Peixe ao Forno" id="146" />
+      <edge source="azeite" target="Salmão ao Molho de Alcaparras" id="147" />
+      <edge source="azeite" target="Bobó de Camarão" id="148" />
+      <edge source="azeite" target="Bacalhoada" id="149" />
+      <edge source="azeite" target="Lasanha de Berinjela" id="150" />
+      <edge source="azeite" target="Moqueca de Banana-da-Terra" id="151" />
+      <edge source="azeite" target="Arroz de Couve-Flor" id="152" />
+      <edge source="azeite" target="Tofu com Broa" id="153" />
+      <edge source="azeite" target="Ratatouille no Forno" id="154" />
+      <edge source="azeite" target="Salada de Grão de Bico e Atum" id="155" />
+      <edge source="azeite" target="Salada Caesar" id="156" />
+      <edge source="azeite" target="Salada Colorida" id="157" />
+      <edge source="azeite" target="Cuscuz Marroquino com Legumes" id="158" />
+      <edge source="azeite" target="Caldo Verde" id="159" />
+      <edge source="azeite" target="Sopa de Tomate com Manjericão" id="160" />
+      <edge source="azeite" target="Coxinha Simples" id="161" />
+      <edge source="pimentão vermelho" target="Salpicão de Frango" id="162" />
+      <edge source="pimentão vermelho" target="Frango Xadrez" id="163" />
+      <edge source="pimentão vermelho" target="Falsa Bacalhoada" id="164" />
+      <edge source="pimentão vermelho" target="Peixe ao Forno com Legumes" id="165" />
+      <edge source="pimentão vermelho" target="Bobó de Camarão" id="166" />
+      <edge source="pimentão vermelho" target="Bacalhoada" id="167" />
+      <edge source="pimentão vermelho" target="Moqueca de Banana-da-Terra" id="168" />
+      <edge source="pimentão verde" target="Salpicão de Frango" id="169" />
+      <edge source="pimentão verde" target="Frango Xadrez" id="170" />
+      <edge source="pimentão verde" target="Falsa Bacalhoada" id="171" />
+      <edge source="pimentão verde" target="Moqueca de Banana-da-Terra" id="172" />
+      <edge source="alho" target="Bife à Parmegiana" id="173" />
+      <edge source="alho" target="Lombo Assado" id="174" />
+      <edge source="alho" target="Empadão de Frango" id="175" />
+      <edge source="alho" target="Torta de Frango Gratinada" id="176" />
+      <edge source="alho" target="Strogonoff de Frango" id="177" />
+      <edge source="alho" target="Bobó de Frango" id="178" />
+      <edge source="alho" target="Fricassê de Frango Fácil" id="179" />
+      <edge source="alho" target="Empadinha de Frango" id="180" />
+      <edge source="alho" target="Frango Assado com Batatas (simples)" id="181" />
+      <edge source="alho" target="Frango à Passarinho de Forno" id="182" />
+      <edge source="alho" target="Frango com Quiabo" id="183" />
+      <edge source="alho" target="Filé de Peixe ao Forno" id="184" />
+      <edge source="alho" target="Salmão ao Molho de Alcaparras" id="185" />
+      <edge source="alho" target="Bobó de Camarão" id="186" />
+      <edge source="alho" target="Moqueca de Peixe com Pirão" id="187" />
+      <edge source="alho" target="Quibe de Abóbora" id="188" />
+      <edge source="alho" target="Moqueca de Banana-da-Terra" id="189" />
+      <edge source="alho" target="Tofu com Broa" id="190" />
+      <edge source="alho" target="Ratatouille no Forno" id="191" />
+      <edge source="alho" target="Salada Caesar" id="192" />
+      <edge source="alho" target="Sopa de Cebola" id="193" />
+      <edge source="Sanduíche de Rabada" target="cebola picada" id="194" />
+      <edge source="Sanduíche de Rabada" target="rabo bovino" id="195" />
+      <edge source="Sanduíche de Rabada" target="folha de louro" id="196" />
+      <edge source="Sanduíche de Rabada" target="tomate picado" id="197" />
+      <edge source="Sanduíche de Rabada" target="alho picado" id="198" />
+      <edge source="Sanduíche de Rabada" target="salsa" id="199" />
+      <edge source="Sanduíche de Rabada" target="páprica picante" id="200" />
+      <edge source="Sanduíche de Rabada" target="queijo" id="201" />
+      <edge source="Sanduíche de Rabada" target="agrião" id="202" />
+      <edge source="cebola picada" target="Maminha na Cerveja Preta" id="203" />
+      <edge source="cebola picada" target="Bife à Parmegiana" id="204" />
+      <edge source="cebola picada" target="Empadão de Frango" id="205" />
+      <edge source="cebola picada" target="Lasanha de Frango com Queijo" id="206" />
+      <edge source="cebola picada" target="Torta de Frango de Liquidificador" id="207" />
+      <edge source="cebola picada" target="Petisco de Peixe" id="208" />
+      <edge source="cebola picada" target="Arroz de Couve-Flor" id="209" />
+      <edge source="cebola picada" target="Salada de Maionese Simples" id="210" />
+      <edge source="cebola picada" target="Canja de Galinha Nutritiva" id="211" />
+      <edge source="folha de louro" target="Maminha na Cerveja Preta" id="212" />
+      <edge source="folha de louro" target="Empadinha de Frango" id="213" />
+      <edge source="folha de louro" target="Bobó de Camarão" id="214" />
+      <edge source="folha de louro" target="Bacalhoada" id="215" />
+      <edge source="folha de louro" target="Feijoada Vegetariana" id="216" />
+      <edge source="folha de louro" target="Tofu com Broa" id="217" />
+      <edge source="folha de louro" target="Salada Caesar" id="218" />
+      <edge source="folha de louro" target="Caldo Verde" id="219" />
+      <edge source="tomate picado" target="Torta de Frango de Liquidificador" id="220" />
+      <edge source="alho picado" target="Maminha na Cerveja Preta" id="221" />
+      <edge source="alho picado" target="Picadinho de Carne Simples" id="222" />
+      <edge source="alho picado" target="Lasanha de Frango com Queijo" id="223" />
+      <edge source="alho picado" target="Frango Assado com Laranja" id="224" />
+      <edge source="alho picado" target="Isca de Peixe" id="225" />
+      <edge source="alho picado" target="Arroz de Couve-Flor" id="226" />
+      <edge source="salsa" target="Salada de Grão de Bico e Atum" id="227" />
+      <edge source="queijo" target="Fricassê de Frango Fácil" id="228" />
+      <edge source="Maminha na Cerveja Preta" target="maminha" id="229" />
+      <edge source="Maminha na Cerveja Preta" target="molho de tomate" id="230" />
+      <edge source="Maminha na Cerveja Preta" target="cerveja preta" id="231" />
+      <edge source="Maminha na Cerveja Preta" target="creme de cebola" id="232" />
+      <edge source="molho de tomate" target="Bife à Parmegiana" id="233" />
+      <edge source="molho de tomate" target="Empadão de Frango" id="234" />
+      <edge source="molho de tomate" target="Gratinado de Frango" id="235" />
+      <edge source="molho de tomate" target="Frango Assado com Batatas (simples)" id="236" />
+      <edge source="molho de tomate" target="Peixe ao Forno com Legumes" id="237" />
+      <edge source="molho de tomate" target="Lasanha de Berinjela" id="238" />
+      <edge source="Costela na Panela de Pressão" target="costela bovina" id="239" />
+      <edge source="Costela na Panela de Pressão" target="cebolas em rodelas" id="240" />
+      <edge source="Costela na Panela de Pressão" target="pimenta-de-cheiro" id="241" />
+      <edge source="Costela na Panela de Pressão" target="bacon sem pele" id="242" />
+      <edge source="pimenta-de-cheiro" target="Moqueca de Banana-da-Terra" id="243" />
+      <edge source="Carne Moída Simples" target="carne moída" id="244" />
+      <edge source="Carne Moída Simples" target="cebola" id="245" />
+      <edge source="Carne Moída Simples" target="alho amassado" id="246" />
+      <edge source="Carne Moída Simples" target="extrato de tomate" id="247" />
+      <edge source="Carne Moída Simples" target="coentro" id="248" />
+      <edge source="Carne Moída Simples" target="tempero completo" id="249" />
+      <edge source="carne moída" target="Esfiha Aberta Tipo Habib's" id="250" />
+      <edge source="cebola" target="Escondidinho com Carne Seca" id="251" />
+      <edge source="cebola" target="Lombo Assado" id="252" />
+      <edge source="cebola" target="Coxinha de Frango com Catupiri" id="253" />
+      <edge source="cebola" target="Torta de Frango Gratinada" id="254" />
+      <edge source="cebola" target="Strogonoff de Frango" id="255" />
+      <edge source="cebola" target="Bobó de Frango" id="256" />
+      <edge source="cebola" target="Fricassê de Frango Fácil" id="257" />
+      <edge source="cebola" target="Frango Xadrez" id="258" />
+      <edge source="cebola" target="Empadinha de Frango" id="259" />
+      <edge source="cebola" target="Frango com Quiabo" id="260" />
+      <edge source="cebola" target="Falsa Bacalhoada" id="261" />
+      <edge source="cebola" target="Peixe ao Forno com Legumes" id="262" />
+      <edge source="cebola" target="Filé de Peixe ao Forno" id="263" />
+      <edge source="cebola" target="Bobó de Camarão" id="264" />
+      <edge source="cebola" target="Bacalhoada" id="265" />
+      <edge source="cebola" target="Moqueca de Peixe com Pirão" id="266" />
+      <edge source="cebola" target="Quibe de Abóbora" id="267" />
+      <edge source="cebola" target="Moqueca de Banana-da-Terra" id="268" />
+      <edge source="cebola" target="Feijoada Vegetariana" id="269" />
+      <edge source="cebola" target="Tofu com Broa" id="270" />
+      <edge source="cebola" target="Salada de Macarrão com Atum e Maionese" id="271" />
+      <edge source="cebola" target="Salada Caesar" id="272" />
+      <edge source="cebola" target="Cuscuz Marroquino com Legumes" id="273" />
+      <edge source="cebola" target="Caldo Verde" id="274" />
+      <edge source="cebola" target="Sopa de Abóbora com Gengibre" id="275" />
+      <edge source="cebola" target="Sopa de Tomate com Manjericão" id="276" />
+      <edge source="cebola" target="Coxinha Simples" id="277" />
+      <edge source="cebola" target="Esfiha Aberta Tipo Habib's" id="278" />
+      <edge source="alho amassado" target="Coxinha de Frango com Catupiri" id="279" />
+      <edge source="alho amassado" target="Sopa de Mandioquinha com Carne Seca" id="280" />
+      <edge source="alho amassado" target="Canja de Galinha Nutritiva" id="281" />
+      <edge source="alho amassado" target="Pão de Alho Caseiro" id="282" />
+      <edge source="coentro" target="Bobó de Frango" id="283" />
+      <edge source="coentro" target="Moqueca de Peixe" id="284" />
+      <edge source="coentro" target="Petisco de Peixe" id="285" />
+      <edge source="coentro" target="Filé de Peixe ao Forno" id="286" />
+      <edge source="coentro" target="Moqueca de Peixe com Pirão" id="287" />
+      <edge source="coentro" target="Lasanha de Berinjela" id="288" />
+      <edge source="coentro" target="Moqueca de Banana-da-Terra" id="289" />
+      <edge source="Strogonoff de Carne" target="margarina" id="290" />
+      <edge source="Strogonoff de Carne" target="coxão-mole em tiras" id="291" />
+      <edge source="Strogonoff de Carne" target="água fervente" id="292" />
+      <edge source="Strogonoff de Carne" target="catchup" id="293" />
+      <edge source="Strogonoff de Carne" target="molho inglês" id="294" />
+      <edge source="Strogonoff de Carne" target="mostarda" id="295" />
+      <edge source="Strogonoff de Carne" target="champignon em conserva" id="296" />
+      <edge source="Strogonoff de Carne" target="creme de leite" id="297" />
+      <edge source="margarina" target="Escondidinho com Carne Seca" id="298" />
+      <edge source="margarina" target="Pão de Alho Caseiro" id="299" />
+      <edge source="água fervente" target="Empadão de Frango" id="300" />
+      <edge source="água fervente" target="Arroz de Couve-Flor" id="301" />
+      <edge source="água fervente" target="Sopa de Cebola" id="302" />
+      <edge source="catchup" target="Bife à Parmegiana" id="303" />
+      <edge source="mostarda" target="Bife à Parmegiana" id="304" />
+      <edge source="mostarda" target="Strogonoff de Frango" id="305" />
+      <edge source="mostarda" target="Salmão ao Molho de Alcaparras" id="306" />
+      <edge source="creme de leite" target="Lasanha de Frango com Queijo" id="307" />
+      <edge source="creme de leite" target="Strogonoff de Frango" id="308" />
+      <edge source="creme de leite" target="Gratinado de Frango" id="309" />
+      <edge source="creme de leite" target="Fricassê de Frango Fácil" id="310" />
+      <edge source="creme de leite" target="Peixe à Delícia" id="311" />
+      <edge source="creme de leite" target="Risoto de Cogumelos (vegetariano)" id="312" />
+      <edge source="creme de leite" target="Sopa de Cebola" id="313" />
+      <edge source="creme de leite" target="Esfiha Aberta Tipo Habib's" id="314" />
+      <edge source="creme de leite" target="Pudim de Leite Condensado Nestlé" id="315" />
+      <edge source="creme de leite" target="Manjar de Coco com Calda de Ameixa" id="316" />
+      <edge source="creme de leite" target="Torta de Limão Clássica com Merengue" id="317" />
+      <edge source="creme de leite" target="Bolo de Chocolate Molhado" id="318" />
+      <edge source="Escondidinho com Carne Seca" target="carne seca" id="319" />
+      <edge source="Escondidinho com Carne Seca" target="mandioca" id="320" />
+      <edge source="Escondidinho com Carne Seca" target="cheiro-verde" id="321" />
+      <edge source="Escondidinho com Carne Seca" target="requeijão" id="322" />
+      <edge source="Escondidinho com Carne Seca" target="leite" id="323" />
+      <edge source="mandioca" target="Bobó de Camarão" id="324" />
+      <edge source="cheiro-verde" target="Bife à Parmegiana" id="325" />
+      <edge source="cheiro-verde" target="Lombo Assado" id="326" />
+      <edge source="cheiro-verde" target="Empadão de Frango" id="327" />
+      <edge source="cheiro-verde" target="Torta de Frango Gratinada" id="328" />
+      <edge source="cheiro-verde" target="Feijoada Vegetariana" id="329" />
+      <edge source="cheiro-verde" target="Couve-Flor Gratinada" id="330" />
+      <edge source="cheiro-verde" target="Croquete de Carne" id="331" />
+      <edge source="requeijão" target="Empadão de Frango" id="332" />
+      <edge source="requeijão" target="Lasanha de Frango com Queijo" id="333" />
+      <edge source="requeijão" target="Torta de Frango Gratinada" id="334" />
+      <edge source="requeijão" target="Peixe à Delícia" id="335" />
+      <edge source="requeijão" target="Couve-Flor Gratinada" id="336" />
+      <edge source="requeijão" target="Coxinha Simples" id="337" />
+      <edge source="leite" target="Empadão de Frango" id="338" />
+      <edge source="leite" target="Lasanha de Frango com Queijo" id="339" />
+      <edge source="leite" target="Coxinha de Frango com Catupiri" id="340" />
+      <edge source="leite" target="Torta de Frango de Liquidificador" id="341" />
+      <edge source="leite" target="Empadinha de Frango" id="342" />
+      <edge source="leite" target="Torta de Liquidificador de Legumes" id="343" />
+      <edge source="leite" target="Sopa de Mandioquinha com Carne Seca" id="344" />
+      <edge source="leite" target="Pão de Queijo de Liquidificador" id="345" />
+      <edge source="leite" target="Coxinha Simples" id="346" />
+      <edge source="leite" target="Croquete de Carne" id="347" />
+      <edge source="leite" target="Manjar de Coco com Calda de Ameixa" id="348" />
+      <edge source="leite" target="Bolo de Fubá com Compota de Goiaba" id="349" />
+      <edge source="leite" target="Bolinho de Chuva" id="350" />
+      <edge source="Picadinho de Carne Simples" target="patinho em cubos" id="351" />
+      <edge source="Picadinho de Carne Simples" target="farinha de trigo" id="352" />
+      <edge source="Picadinho de Carne Simples" target="manteiga" id="353" />
+      <edge source="Picadinho de Carne Simples" target="vinho tinto" id="354" />
+      <edge source="Picadinho de Carne Simples" target="tomate pelado" id="355" />
+      <edge source="farinha de trigo" target="Empadão de Frango" id="356" />
+      <edge source="farinha de trigo" target="Lasanha de Frango com Queijo" id="357" />
+      <edge source="farinha de trigo" target="Coxinha de Frango com Catupiri" id="358" />
+      <edge source="farinha de trigo" target="Torta de Frango Gratinada" id="359" />
+      <edge source="farinha de trigo" target="Gratinado de Frango" id="360" />
+      <edge source="farinha de trigo" target="Torta de Frango de Liquidificador" id="361" />
+      <edge source="farinha de trigo" target="Empadinha de Frango" id="362" />
+      <edge source="farinha de trigo" target="Frango à Passarinho de Forno" id="363" />
+      <edge source="farinha de trigo" target="Petisco de Peixe" id="364" />
+      <edge source="farinha de trigo" target="Salmão ao Molho de Alcaparras" id="365" />
+      <edge source="farinha de trigo" target="Torta de Liquidificador de Legumes" id="366" />
+      <edge source="farinha de trigo" target="Sopa de Cebola" id="367" />
+      <edge source="farinha de trigo" target="Sopa de Tomate com Manjericão" id="368" />
+      <edge source="farinha de trigo" target="Coxinha Simples" id="369" />
+      <edge source="farinha de trigo" target="Esfiha Aberta Tipo Habib's" id="370" />
+      <edge source="farinha de trigo" target="Croquete de Carne" id="371" />
+      <edge source="farinha de trigo" target="Bolo de Cenoura com Cobertura de Brigadeiro" id="372" />
+      <edge source="farinha de trigo" target="Bolo de Fubá com Compota de Goiaba" id="373" />
+      <edge source="farinha de trigo" target="Bolinho de Chuva" id="374" />
+      <edge source="farinha de trigo" target="Torta de Limão Clássica com Merengue" id="375" />
+      <edge source="manteiga" target="Empadão de Frango" id="376" />
+      <edge source="manteiga" target="Lasanha de Frango com Queijo" id="377" />
+      <edge source="manteiga" target="Coxinha de Frango com Catupiri" id="378" />
+      <edge source="manteiga" target="Torta de Frango Gratinada" id="379" />
+      <edge source="manteiga" target="Strogonoff de Frango" id="380" />
+      <edge source="manteiga" target="Empadinha de Frango" id="381" />
+      <edge source="manteiga" target="Salmão ao Molho de Alcaparras" id="382" />
+      <edge source="manteiga" target="Risoto de Cogumelos (vegetariano)" id="383" />
+      <edge source="manteiga" target="Couve-Flor Gratinada" id="384" />
+      <edge source="manteiga" target="Sopa de Abóbora com Gengibre" id="385" />
+      <edge source="manteiga" target="Sopa de Cebola" id="386" />
+      <edge source="manteiga" target="Coxinha Simples" id="387" />
+      <edge source="manteiga" target="Bolo de Cenoura com Cobertura de Brigadeiro" id="388" />
+      <edge source="manteiga" target="Brigadeirão Cremoso" id="389" />
+      <edge source="manteiga" target="Bolo de Fubá com Compota de Goiaba" id="390" />
+      <edge source="manteiga" target="Torta de Limão Clássica com Merengue" id="391" />
+      <edge source="manteiga" target="Bolo de Chocolate Molhado" id="392" />
+      <edge source="manteiga" target="Farofa de Banana-da-Terra" id="393" />
+      <edge source="tomate pelado" target="Cuscuz Marroquino com Legumes" id="394" />
+      <edge source="Bife à Parmegiana" target="carne para bife" id="395" />
+      <edge source="Bife à Parmegiana" target="ovo" id="396" />
+      <edge source="Bife à Parmegiana" target="farinha de rosca" id="397" />
+      <edge source="Bife à Parmegiana" target="queijo mussarela" id="398" />
+      <edge source="ovo" target="Empadão de Frango" id="399" />
+      <edge source="ovo" target="Torta de Frango de Liquidificador" id="400" />
+      <edge source="farinha de rosca" target="Coxinha de Frango com Catupiri" id="401" />
+      <edge source="farinha de rosca" target="Petisco de Peixe" id="402" />
+      <edge source="farinha de rosca" target="Coxinha Simples" id="403" />
+      <edge source="farinha de rosca" target="Croquete de Carne" id="404" />
+      <edge source="queijo mussarela" target="Torta de Frango Gratinada" id="405" />
+      <edge source="Lombo Assado" target="laranja" id="406" />
+      <edge source="Lombo Assado" target="lombo de porco" id="407" />
+      <edge source="Lombo Assado" target="maionese" id="408" />
+      <edge source="Lombo Assado" target="azeite extra virgem" id="409" />
+      <edge source="maionese" target="Strogonoff de Frango" id="410" />
+      <edge source="maionese" target="Salpicão de Frango" id="411" />
+      <edge source="maionese" target="Frango Assado com Batatas (simples)" id="412" />
+      <edge source="maionese" target="Salada de Macarrão com Atum e Maionese" id="413" />
+      <edge source="maionese" target="Salada de Maionese Simples" id="414" />
+      <edge source="maionese" target="Pão de Alho Caseiro" id="415" />
+      <edge source="Empadão de Frango" target="peito de frango desfiado" id="416" />
+      <edge source="Empadão de Frango" target="caldo de galinha" id="417" />
+      <edge source="Empadão de Frango" target="azeitonas verdes" id="418" />
+      <edge source="Empadão de Frango" target="milho verde" id="419" />
+      <edge source="Empadão de Frango" target="gema" id="420" />
+      <edge source="peito de frango desfiado" target="Lasanha de Frango com Queijo" id="421" />
+      <edge source="peito de frango desfiado" target="Coxinha de Frango com Catupiri" id="422" />
+      <edge source="peito de frango desfiado" target="Gratinado de Frango" id="423" />
+      <edge source="peito de frango desfiado" target="Coxinha Simples" id="424" />
+      <edge source="caldo de galinha" target="Coxinha de Frango com Catupiri" id="425" />
+      <edge source="caldo de galinha" target="Gratinado de Frango" id="426" />
+      <edge source="caldo de galinha" target="Fricassê de Frango Fácil" id="427" />
+      <edge source="caldo de galinha" target="Canja de Galinha Nutritiva" id="428" />
+      <edge source="caldo de galinha" target="Sopa de Capeletti" id="429" />
+      <edge source="caldo de galinha" target="Coxinha Simples" id="430" />
+      <edge source="azeitonas verdes" target="Empadinha de Frango" id="431" />
+      <edge source="azeitonas verdes" target="Salada de Macarrão com Atum e Maionese" id="432" />
+      <edge source="milho verde" target="Fricassê de Frango Fácil" id="433" />
+      <edge source="gema" target="Torta de Frango Gratinada" id="434" />
+      <edge source="Lasanha de Frango com Queijo" target="massa de lasanha" id="435" />
+      <edge source="Lasanha de Frango com Queijo" target="presunto" id="436" />
+      <edge source="Lasanha de Frango com Queijo" target="mussarela ralada" id="437" />
+      <edge source="Lasanha de Frango com Queijo" target="noz-moscada" id="438" />
+      <edge source="noz-moscada" target="Empadinha de Frango" id="439" />
+      <edge source="Coxinha de Frango com Catupiri" target="pimenta vermelha" id="440" />
+      <edge source="Coxinha de Frango com Catupiri" target="colorífico" id="441" />
+      <edge source="Coxinha de Frango com Catupiri" target="salsinha picada" id="442" />
+      <edge source="Coxinha de Frango com Catupiri" target="catupiri" id="443" />
+      <edge source="Coxinha de Frango com Catupiri" target="clara de ovo" id="444" />
+      <edge source="salsinha picada" target="Salpicão de Frango" id="445" />
+      <edge source="salsinha picada" target="Frango Assado com Laranja" id="446" />
+      <edge source="salsinha picada" target="Pão de Alho Caseiro" id="447" />
+      <edge source="Torta de Frango Gratinada" target="queijo parmesão" id="448" />
+      <edge source="Torta de Frango Gratinada" target="fermento em pó" id="449" />
+      <edge source="Torta de Frango Gratinada" target="tomilho" id="450" />
+      <edge source="Torta de Frango Gratinada" target="água gelada" id="451" />
+      <edge source="Torta de Frango Gratinada" target="clara" id="452" />
+      <edge source="Torta de Frango Gratinada" target="brócolis" id="453" />
+      <edge source="Torta de Frango Gratinada" target="colorau" id="454" />
+      <edge source="Torta de Frango Gratinada" target="tomate-cereja" id="455" />
+      <edge source="Torta de Frango Gratinada" target="frango desfiado" id="456" />
+      <edge source="Torta de Frango Gratinada" target="milho" id="457" />
+      <edge source="queijo parmesão" target="Torta de Liquidificador de Legumes" id="458" />
+      <edge source="queijo parmesão" target="Salada Caesar" id="459" />
+      <edge source="queijo parmesão" target="Croquete de Carne" id="460" />
+      <edge source="fermento em pó" target="Torta de Liquidificador de Legumes" id="461" />
+      <edge source="fermento em pó" target="Esfiha Aberta Tipo Habib's" id="462" />
+      <edge source="fermento em pó" target="Bolo de Cenoura com Cobertura de Brigadeiro" id="463" />
+      <edge source="fermento em pó" target="Bolo de Fubá com Compota de Goiaba" id="464" />
+      <edge source="fermento em pó" target="Bolinho de Chuva" id="465" />
+      <edge source="fermento em pó" target="Torta de Limão Clássica com Merengue" id="466" />
+      <edge source="tomate-cereja" target="Bacalhoada" id="467" />
+      <edge source="milho" target="Salada de Grão de Bico e Atum" id="468" />
+      <edge source="milho" target="Salada de Maionese Simples" id="469" />
+      <edge source="Strogonoff de Frango" target="peito de frango" id="470" />
+      <edge source="Strogonoff de Frango" target="champignon" id="471" />
+      <edge source="Strogonoff de Frango" target="ketchup" id="472" />
+      <edge source="peito de frango" target="Bobó de Frango" id="473" />
+      <edge source="peito de frango" target="Fricassê de Frango Fácil" id="474" />
+      <edge source="peito de frango" target="Empadinha de Frango" id="475" />
+      <edge source="peito de frango" target="Salada Caesar" id="476" />
+      <edge source="peito de frango" target="Canja de Galinha Nutritiva" id="477" />
+      <edge source="Bobó de Frango" target="tomate sem pele" id="478" />
+      <edge source="Bobó de Frango" target="mandioca cozida" id="479" />
+      <edge source="Bobó de Frango" target="leite de coco" id="480" />
+      <edge source="Bobó de Frango" target="azeite de dendê" id="481" />
+      <edge source="leite de coco" target="Moqueca de Peixe" id="482" />
+      <edge source="leite de coco" target="Bobó de Camarão" id="483" />
+      <edge source="leite de coco" target="Moqueca de Peixe com Pirão" id="484" />
+      <edge source="leite de coco" target="Moqueca de Banana-da-Terra" id="485" />
+      <edge source="leite de coco" target="Quindim Fácil" id="486" />
+      <edge source="leite de coco" target="Manjar de Coco com Calda de Ameixa" id="487" />
+      <edge source="azeite de dendê" target="Moqueca de Peixe" id="488" />
+      <edge source="azeite de dendê" target="Bobó de Camarão" id="489" />
+      <edge source="azeite de dendê" target="Moqueca de Peixe com Pirão" id="490" />
+      <edge source="azeite de dendê" target="Moqueca de Banana-da-Terra" id="491" />
+      <edge source="Gratinado de Frango" target="queijo ralado" id="492" />
+      <edge source="Gratinado de Frango" target="manteiga derretida" id="493" />
+      <edge source="queijo ralado" target="Peixe à Delícia" id="494" />
+      <edge source="queijo ralado" target="Pão de Queijo de Liquidificador" id="495" />
+      <edge source="Fricassê de Frango Fácil" target="azeitonas" id="496" />
+      <edge source="Fricassê de Frango Fácil" target="requeijão cremoso" id="497" />
+      <edge source="Fricassê de Frango Fácil" target="batata palha" id="498" />
+      <edge source="Fricassê de Frango Fácil" target="pimenta" id="499" />
+      <edge source="requeijão cremoso" target="Salada de Macarrão com Atum e Maionese" id="500" />
+      <edge source="batata palha" target="Salpicão de Frango" id="501" />
+      <edge source="pimenta" target="Salpicão de Frango" id="502" />
+      <edge source="pimenta" target="Frango Assado com Laranja" id="503" />
+      <edge source="pimenta" target="Moqueca de Peixe com Pirão" id="504" />
+      <edge source="pimenta" target="Tofu com Broa" id="505" />
+      <edge source="pimenta" target="Esfiha Aberta Tipo Habib's" id="506" />
+      <edge source="Salpicão de Frango" target="peito de frango cozido e desfiado" id="507" />
+      <edge source="Salpicão de Frango" target="cebola picadinha" id="508" />
+      <edge source="Salpicão de Frango" target="maçã picada" id="509" />
+      <edge source="Salpicão de Frango" target="uva passa" id="510" />
+      <edge source="Salpicão de Frango" target="cenoura ralada" id="511" />
+      <edge source="peito de frango cozido e desfiado" target="Torta de Frango de Liquidificador" id="512" />
+      <edge source="cebola picadinha" target="Sopa de Mandioquinha com Carne Seca" id="513" />
+      <edge source="cenoura ralada" target="Salada de Macarrão com Atum e Maionese" id="514" />
+      <edge source="cenoura ralada" target="Canja de Galinha Nutritiva" id="515" />
+      <edge source="Torta de Frango de Liquidificador" target="óleo de soja" id="516" />
+      <edge source="Torta de Frango de Liquidificador" target="fermento químico em pó" id="517" />
+      <edge source="Torta de Frango de Liquidificador" target="palmito" id="518" />
+      <edge source="Torta de Frango de Liquidificador" target="ervilha" id="519" />
+      <edge source="Torta de Frango de Liquidificador" target="alecrim" id="520" />
+      <edge source="Torta de Frango de Liquidificador" target="milho em conserva" id="521" />
+      <edge source="óleo de soja" target="Frango Xadrez" id="522" />
+      <edge source="óleo de soja" target="Pão de Queijo de Liquidificador" id="523" />
+      <edge source="óleo de soja" target="Esfiha Aberta Tipo Habib's" id="524" />
+      <edge source="ervilha" target="Salada de Maionese Simples" id="525" />
+      <edge source="Frango Xadrez" target="filé de frango em cubos" id="526" />
+      <edge source="Frango Xadrez" target="amido de milho" id="527" />
+      <edge source="Frango Xadrez" target="amendoim sem casca" id="528" />
+      <edge source="Frango Xadrez" target="gengibre fresco" id="529" />
+      <edge source="Frango Xadrez" target="cebolinha verde" id="530" />
+      <edge source="Frango Xadrez" target="glutamato monossódico" id="531" />
+      <edge source="Frango Xadrez" target="óleo de gergelim" id="532" />
+      <edge source="Frango Xadrez" target="molho de soja" id="533" />
+      <edge source="Frango Xadrez" target="açúcar" id="534" />
+      <edge source="molho de soja" target="Tofu com Broa" id="535" />
+      <edge source="açúcar" target="Bolo de Cenoura com Cobertura de Brigadeiro" id="536" />
+      <edge source="açúcar" target="Pudim de Leite Condensado Nestlé" id="537" />
+      <edge source="açúcar" target="Brigadeirão Cremoso" id="538" />
+      <edge source="açúcar" target="Quindim Fácil" id="539" />
+      <edge source="açúcar" target="Manjar de Coco com Calda de Ameixa" id="540" />
+      <edge source="açúcar" target="Bolo de Fubá com Compota de Goiaba" id="541" />
+      <edge source="açúcar" target="Bolinho de Chuva" id="542" />
+      <edge source="açúcar" target="Torta de Limão Clássica com Merengue" id="543" />
+      <edge source="açúcar" target="Bolo de Chocolate Molhado" id="544" />
+      <edge source="Empadinha de Frango" target="tomate" id="545" />
+      <edge source="Empadinha de Frango" target="casca de limão" id="546" />
+      <edge source="Empadinha de Frango" target="cravo-da-índia" id="547" />
+      <edge source="Empadinha de Frango" target="salsinha" id="548" />
+      <edge source="Empadinha de Frango" target="ovos" id="549" />
+      <edge source="Empadinha de Frango" target="gemas" id="550" />
+      <edge source="tomate" target="Frango com Quiabo" id="551" />
+      <edge source="tomate" target="Falsa Bacalhoada" id="552" />
+      <edge source="tomate" target="Peixe ao Forno com Legumes" id="553" />
+      <edge source="tomate" target="Filé de Peixe ao Forno" id="554" />
+      <edge source="tomate" target="Bobó de Camarão" id="555" />
+      <edge source="tomate" target="Moqueca de Peixe com Pirão" id="556" />
+      <edge source="tomate" target="Moqueca de Banana-da-Terra" id="557" />
+      <edge source="tomate" target="Ratatouille no Forno" id="558" />
+      <edge source="tomate" target="Salada de Macarrão com Atum e Maionese" id="559" />
+      <edge source="tomate" target="Canja de Galinha Nutritiva" id="560" />
+      <edge source="tomate" target="Sopa de Tomate com Manjericão" id="561" />
+      <edge source="tomate" target="Coxinha Simples" id="562" />
+      <edge source="tomate" target="Esfiha Aberta Tipo Habib's" id="563" />
+      <edge source="casca de limão" target="Moqueca de Banana-da-Terra" id="564" />
+      <edge source="casca de limão" target="Salada Caesar" id="565" />
+      <edge source="cravo-da-índia" target="Salada Caesar" id="566" />
+      <edge source="salsinha" target="Frango à Passarinho de Forno" id="567" />
+      <edge source="salsinha" target="Torta de Liquidificador de Legumes" id="568" />
+      <edge source="salsinha" target="Esfiha Aberta Tipo Habib's" id="569" />
+      <edge source="ovos" target="Petisco de Peixe" id="570" />
+      <edge source="ovos" target="Torta de Liquidificador de Legumes" id="571" />
+      <edge source="ovos" target="Couve-Flor Gratinada" id="572" />
+      <edge source="ovos" target="Pão de Queijo de Liquidificador" id="573" />
+      <edge source="ovos" target="Croquete de Carne" id="574" />
+      <edge source="ovos" target="Bolo de Cenoura com Cobertura de Brigadeiro" id="575" />
+      <edge source="ovos" target="Pudim de Leite Condensado Nestlé" id="576" />
+      <edge source="ovos" target="Brigadeirão Cremoso" id="577" />
+      <edge source="ovos" target="Bolo de Fubá com Compota de Goiaba" id="578" />
+      <edge source="ovos" target="Bolinho de Chuva" id="579" />
+      <edge source="ovos" target="Bolo de Chocolate Molhado" id="580" />
+      <edge source="gemas" target="Pudim de Leite Condensado Nestlé" id="581" />
+      <edge source="Frango Assado com Batatas (simples)" target="frango em pedaços" id="582" />
+      <edge source="Frango Assado com Batatas (simples)" target="batatas" id="583" />
+      <edge source="Frango Assado com Batatas (simples)" target="tempero para aves" id="584" />
+      <edge source="batatas" target="Salada de Maionese Simples" id="585" />
+      <edge source="batatas" target="Caldo Verde" id="586" />
+      <edge source="Frango à Passarinho de Forno" target="frango cortado à passarinho" id="587" />
+      <edge source="Frango à Passarinho de Forno" target="páprica doce" id="588" />
+      <edge source="Frango à Passarinho de Forno" target="cominho" id="589" />
+      <edge source="Frango à Passarinho de Forno" target="limão" id="590" />
+      <edge source="páprica doce" target="Feijoada Vegetariana" id="591" />
+      <edge source="cominho" target="Quibe de Abóbora" id="592" />
+      <edge source="cominho" target="Salada de Grão de Bico e Atum" id="593" />
+      <edge source="limão" target="Frango Assado com Laranja" id="594" />
+      <edge source="limão" target="Filé de Peixe ao Forno" id="595" />
+      <edge source="limão" target="Moqueca de Peixe com Pirão" id="596" />
+      <edge source="limão" target="Peixe à Delícia" id="597" />
+      <edge source="limão" target="Croquete de Carne" id="598" />
+      <edge source="Frango com Quiabo" target="frango inteiro" id="599" />
+      <edge source="Frango com Quiabo" target="limões" id="600" />
+      <edge source="Frango com Quiabo" target="pimentão" id="601" />
+      <edge source="Frango com Quiabo" target="quiabo" id="602" />
+      <edge source="Frango com Quiabo" target="cominho em pó" id="603" />
+      <edge source="pimentão" target="Moqueca de Peixe com Pirão" id="604" />
+      <edge source="cominho em pó" target="Cuscuz Marroquino com Legumes" id="605" />
+      <edge source="Frango Assado com Laranja" target="frango" id="606" />
+      <edge source="Frango Assado com Laranja" target="laranjas" id="607" />
+      <edge source="Frango Assado com Laranja" target="vinho branco" id="608" />
+      <edge source="Moqueca de Peixe" target="postas de cação ou garoupa" id="609" />
+      <edge source="Moqueca de Peixe" target="suco de limão" id="610" />
+      <edge source="Moqueca de Peixe" target="cebola em rodelas" id="611" />
+      <edge source="Moqueca de Peixe" target="pimentão vermelho em rodelas" id="612" />
+      <edge source="Moqueca de Peixe" target="pimentão verde em rodelas" id="613" />
+      <edge source="Moqueca de Peixe" target="tomate em rodelas" id="614" />
+      <edge source="Moqueca de Peixe" target="caldo de camarão" id="615" />
+      <edge source="suco de limão" target="Isca de Peixe" id="616" />
+      <edge source="suco de limão" target="Falsa Bacalhoada" id="617" />
+      <edge source="suco de limão" target="Salada de Macarrão com Atum e Maionese" id="618" />
+      <edge source="suco de limão" target="Esfiha Aberta Tipo Habib's" id="619" />
+      <edge source="suco de limão" target="Torta de Limão Clássica com Merengue" id="620" />
+      <edge source="Petisco de Peixe" target="batata cozida" id="621" />
+      <edge source="Petisco de Peixe" target="peixe (tilápia) grelhado desfiado" id="622" />
+      <edge source="Petisco de Peixe" target="cebolinha" id="623" />
+      <edge source="batata cozida" target="Falsa Bacalhoada" id="624" />
+      <edge source="batata cozida" target="Peixe ao Forno com Legumes" id="625" />
+      <edge source="cebolinha" target="Torta de Liquidificador de Legumes" id="626" />
+      <edge source="cebolinha" target="Sopa de Mandioquinha com Carne Seca" id="627" />
+      <edge source="cebolinha" target="Esfiha Aberta Tipo Habib's" id="628" />
+      <edge source="Isca de Peixe" target="filé de cação" id="629" />
+      <edge source="Isca de Peixe" target="fubá" id="630" />
+      <edge source="fubá" target="Esfiha Aberta Tipo Habib's" id="631" />
+      <edge source="Falsa Bacalhoada" target="filé de merluza" id="632" />
+      <edge source="Falsa Bacalhoada" target="azeitonas pretas" id="633" />
+      <edge source="Peixe ao Forno com Legumes" target="pimentão amarelo" id="634" />
+      <edge source="Peixe ao Forno com Legumes" target="filé de peixe panga" id="635" />
+      <edge source="Peixe ao Forno com Legumes" target="alcaparras" id="636" />
+      <edge source="Peixe ao Forno com Legumes" target="grão de bico" id="637" />
+      <edge source="pimentão amarelo" target="Bacalhoada" id="638" />
+      <edge source="Filé de Peixe ao Forno" target="filé de pintado" id="639" />
+      <edge source="Filé de Peixe ao Forno" target="shoyu" id="640" />
+      <edge source="Salmão ao Molho de Alcaparras" target="filé de salmão" id="641" />
+      <edge source="Salmão ao Molho de Alcaparras" target="filé de anchovas" id="642" />
+      <edge source="Salmão ao Molho de Alcaparras" target="alcaparra" id="643" />
+      <edge source="Bobó de Camarão" target="cascas e cabeças de camarão" id="644" />
+      <edge source="Bobó de Camarão" target="sementes de coentro" id="645" />
+      <edge source="Bobó de Camarão" target="camarão limpo" id="646" />
+      <edge source="Bobó de Camarão" target="pimenta dedo-de-moça" id="647" />
+      <edge source="Bobó de Camarão" target="caldo de limão" id="648" />
+      <edge source="Bobó de Camarão" target="ramos de coentro" id="649" />
+      <edge source="pimenta dedo-de-moça" target="Moqueca de Banana-da-Terra" id="650" />
+      <edge source="caldo de limão" target="Salada Caesar" id="651" />
+      <edge source="Bacalhoada" target="lombo de bacalhau" id="652" />
+      <edge source="Bacalhoada" target="batata asterix" id="653" />
+      <edge source="Bacalhoada" target="cabeça de alho" id="654" />
+      <edge source="Bacalhoada" target="azeitona verde" id="655" />
+      <edge source="Moqueca de Peixe com Pirão" target="peixe (corvina)" id="656" />
+      <edge source="Moqueca de Peixe com Pirão" target="camarão seco" id="657" />
+      <edge source="Moqueca de Peixe com Pirão" target="farinha de mandioca" id="658" />
+      <edge source="Peixe à Delícia" target="filé de pargo" id="659" />
+      <edge source="Peixe à Delícia" target="banana prata" id="660" />
+      <edge source="Peixe à Delícia" target="molho branco" id="661" />
+      <edge source="Lasanha de Berinjela" target="berinjelas" id="662" />
+      <edge source="Lasanha de Berinjela" target="azeitonas sem caroço" id="663" />
+      <edge source="Lasanha de Berinjela" target="queijo mussarela fatiado" id="664" />
+      <edge source="Lasanha de Berinjela" target="presunto fatiado" id="665" />
+      <edge source="Lasanha de Berinjela" target="catupiry" id="666" />
+      <edge source="Quibe de Abóbora" target="abóbora moranga" id="667" />
+      <edge source="Quibe de Abóbora" target="trigo para kibe" id="668" />
+      <edge source="Quibe de Abóbora" target="canela-da-china em pó" id="669" />
+      <edge source="Moqueca de Banana-da-Terra" target="banana-da-terra" id="670" />
+      <edge source="Moqueca de Banana-da-Terra" target="raiz de coentro" id="671" />
+      <edge source="banana-da-terra" target="Farofa de Banana-da-Terra" id="672" />
+      <edge source="Feijoada Vegetariana" target="feijão preto" id="673" />
+      <edge source="Feijoada Vegetariana" target="abóbora de pescoço" id="674" />
+      <edge source="Feijoada Vegetariana" target="cenoura" id="675" />
+      <edge source="Feijoada Vegetariana" target="proteína de soja grossa" id="676" />
+      <edge source="abóbora de pescoço" target="Sopa de Abóbora com Gengibre" id="677" />
+      <edge source="cenoura" target="Ratatouille no Forno" id="678" />
+      <edge source="cenoura" target="Salada Colorida" id="679" />
+      <edge source="cenoura" target="Cuscuz Marroquino com Legumes" id="680" />
+      <edge source="cenoura" target="Sopa de Capeletti" id="681" />
+      <edge source="cenoura" target="Bolo de Cenoura com Cobertura de Brigadeiro" id="682" />
+      <edge source="Risoto de Cogumelos (vegetariano)" target="arroz" id="683" />
+      <edge source="Risoto de Cogumelos (vegetariano)" target="caldo de legumes" id="684" />
+      <edge source="Risoto de Cogumelos (vegetariano)" target="cogumelos fatiados" id="685" />
+      <edge source="Risoto de Cogumelos (vegetariano)" target="queijo parmesão ralado" id="686" />
+      <edge source="queijo parmesão ralado" target="Couve-Flor Gratinada" id="687" />
+      <edge source="queijo parmesão ralado" target="Sopa de Capeletti" id="688" />
+      <edge source="Arroz de Couve-Flor" target="couve-flor" id="689" />
+      <edge source="couve-flor" target="Couve-Flor Gratinada" id="690" />
+      <edge source="Torta de Liquidificador de Legumes" target="seleta de legumes congelada" id="691" />
+      <edge source="Torta de Liquidificador de Legumes" target="cebola congelada" id="692" />
+      <edge source="Tofu com Broa" target="tofu" id="693" />
+      <edge source="Tofu com Broa" target="broa de milho" id="694" />
+      <edge source="Tofu com Broa" target="alho francês" id="695" />
+      <edge source="Tofu com Broa" target="couve coração" id="696" />
+      <edge source="Tofu com Broa" target="sal marinho" id="697" />
+      <edge source="Tofu com Broa" target="cúrcuma" id="698" />
+      <edge source="Tofu com Broa" target="sumo de limão" id="699" />
+      <edge source="Tofu com Broa" target="levedura de cerveja" id="700" />
+      <edge source="sumo de limão" target="Salada de Grão de Bico e Atum" id="701" />
+      <edge source="levedura de cerveja" target="Ratatouille no Forno" id="702" />
+      <edge source="Ratatouille no Forno" target="pimento verde" id="703" />
+      <edge source="Ratatouille no Forno" target="curgete" id="704" />
+      <edge source="Ratatouille no Forno" target="cebola roxa" id="705" />
+      <edge source="Ratatouille no Forno" target="cebola branca" id="706" />
+      <edge source="Ratatouille no Forno" target="orégãos" id="707" />
+      <edge source="Ratatouille no Forno" target="pimenta preta" id="708" />
+      <edge source="cebola roxa" target="Salada de Grão de Bico e Atum" id="709" />
+      <edge source="Couve-Flor Gratinada" target="mussarela" id="710" />
+      <edge source="Couve-Flor Gratinada" target="tomate picadinho" id="711" />
+      <edge source="Mousse de Chocolate Vegano" target="abacate" id="712" />
+      <edge source="Mousse de Chocolate Vegano" target="cacau em pó" id="713" />
+      <edge source="Mousse de Chocolate Vegano" target="canela em pó" id="714" />
+      <edge source="Mousse de Chocolate Vegano" target="melado de cana" id="715" />
+      <edge source="Mousse de Chocolate Vegano" target="essência de baunilha" id="716" />
+      <edge source="abacate" target="Salada de Grão de Bico e Atum" id="717" />
+      <edge source="canela em pó" target="Cuscuz Marroquino com Legumes" id="718" />
+      <edge source="canela em pó" target="Bolinho de Chuva" id="719" />
+      <edge source="Salada de Grão de Bico e Atum" target="grão de bico cozido" id="720" />
+      <edge source="Salada de Grão de Bico e Atum" target="tomate cereja" id="721" />
+      <edge source="Salada de Grão de Bico e Atum" target="atum em água" id="722" />
+      <edge source="Salada de Macarrão com Atum e Maionese" target="macarrão parafuso" id="723" />
+      <edge source="Salada de Macarrão com Atum e Maionese" target="atum ralado" id="724" />
+      <edge source="Salada de Macarrão com Atum e Maionese" target="muçarela" id="725" />
+      <edge source="Salada de Macarrão com Atum e Maionese" target="pimenta do reino" id="726" />
+      <edge source="Salada de Macarrão com Atum e Maionese" target="cheiro verde" id="727" />
+      <edge source="pimenta do reino" target="Salada de Maionese Simples" id="728" />
+      <edge source="pimenta do reino" target="Sopa de Cebola" id="729" />
+      <edge source="pimenta do reino" target="Coxinha Simples" id="730" />
+      <edge source="cheiro verde" target="Coxinha Simples" id="731" />
+      <edge source="Salada de Maionese Simples" target="cenouras" id="732" />
+      <edge source="Salada de Maionese Simples" target="aji-no-moto" id="733" />
+      <edge source="Salada de Maionese Simples" target="páprica" id="734" />
+      <edge source="Salada Caesar" target="pão amanhecido" id="735" />
+      <edge source="Salada Caesar" target="alface-romana" id="736" />
+      <edge source="Salada Caesar" target="maionese caseira" id="737" />
+      <edge source="Salada Caesar" target="filé de anchova" id="738" />
+      <edge source="Salada Colorida" target="alface americana" id="739" />
+      <edge source="Salada Colorida" target="pepino japonês" id="740" />
+      <edge source="Salada Colorida" target="beterraba" id="741" />
+      <edge source="Salada Colorida" target="tomate sweet grape" id="742" />
+      <edge source="Salada Colorida" target="ovos de codorna" id="743" />
+      <edge source="Cuscuz Marroquino com Legumes" target="salsão" id="744" />
+      <edge source="Cuscuz Marroquino com Legumes" target="gengibre em pó" id="745" />
+      <edge source="Cuscuz Marroquino com Legumes" target="pimenta chilli" id="746" />
+      <edge source="Cuscuz Marroquino com Legumes" target="cuscuz marroquino" id="747" />
+      <edge source="Cuscuz Marroquino com Legumes" target="abóbora japonesa" id="748" />
+      <edge source="Cuscuz Marroquino com Legumes" target="abobrinha" id="749" />
+      <edge source="Cuscuz Marroquino com Legumes" target="vagem holandesa" id="750" />
+      <edge source="Cuscuz Marroquino com Legumes" target="grão-de-bico cozido" id="751" />
+      <edge source="salsão" target="Sopa de Capeletti" id="752" />
+      <edge source="gengibre em pó" target="Sopa de Abóbora com Gengibre" id="753" />
+      <edge source="Caldo Verde" target="linguiça portuguesa" id="754" />
+      <edge source="Caldo Verde" target="água quente" id="755" />
+      <edge source="Caldo Verde" target="caldo de bacon" id="756" />
+      <edge source="Caldo Verde" target="couve-manteiga" id="757" />
+      <edge source="Caldo Verde" target="cebolinha-verde" id="758" />
+      <edge source="Sopa de Mandioquinha com Carne Seca" target="mandioquinha" id="759" />
+      <edge source="Sopa de Mandioquinha com Carne Seca" target="carne seca desfiada" id="760" />
+      <edge source="Sopa de Mandioquinha com Carne Seca" target="pimenta de cheiro" id="761" />
+      <edge source="Canja de Galinha Nutritiva" target="alho-poró" id="762" />
+      <edge source="Canja de Galinha Nutritiva" target="abobrinha ralada" id="763" />
+      <edge source="Canja de Galinha Nutritiva" target="batata picada" id="764" />
+      <edge source="Canja de Galinha Nutritiva" target="quinoa mista" id="765" />
+      <edge source="Canja de Galinha Nutritiva" target="salsa picada" id="766" />
+      <edge source="alho-poró" target="Sopa de Capeletti" id="767" />
+      <edge source="Sopa de Feijão com Macarrão" target="feijão cozido" id="768" />
+      <edge source="Sopa de Feijão com Macarrão" target="macarrão" id="769" />
+      <edge source="Sopa de Feijão com Macarrão" target="cenoura em cubinhos" id="770" />
+      <edge source="Sopa de Cebola" target="batatas pré-cozidas" id="771" />
+      <edge source="Sopa de Cebola" target="cebola fatiada" id="772" />
+      <edge source="Sopa de Capeletti" target="capeletti" id="773" />
+      <edge source="Sopa de Tomate com Manjericão" target="manjericão" id="774" />
+      <edge source="Sopa de Tomate com Manjericão" target="suco de laranja" id="775" />
+      <edge source="Sopa de Tomate com Manjericão" target="rum" id="776" />
+      <edge source="Pão de Queijo de Liquidificador" target="polvilho doce" id="777" />
+      <edge source="Enroladinho de Salsicha Fácil" target="salsicha" id="778" />
+      <edge source="Enroladinho de Salsicha Fácil" target="massa para pastel" id="779" />
+      <edge source="Enroladinho de Salsicha Fácil" target="óleo de milho" id="780" />
+      <edge source="Esfiha Aberta Tipo Habib's" target="fermento biológico seco" id="781" />
+      <edge source="Esfiha Aberta Tipo Habib's" target="açúcar refinado" id="782" />
+      <edge source="Esfiha Aberta Tipo Habib's" target="água morna" id="783" />
+      <edge source="Esfiha Aberta Tipo Habib's" target="queijo branco" id="784" />
+      <edge source="Esfiha Aberta Tipo Habib's" target="hortelã" id="785" />
+      <edge source="água morna" target="Pudim de Leite Condensado Nestlé" id="786" />
+      <edge source="Pão de Alho Caseiro" target="pão francês" id="787" />
+      <edge source="Croquete de Carne" target="batata" id="788" />
+      <edge source="Croquete de Carne" target="carne moída cozida" id="789" />
+      <edge source="Bolo de Cenoura com Cobertura de Brigadeiro" target="leite condensado" id="790" />
+      <edge source="Bolo de Cenoura com Cobertura de Brigadeiro" target="chocolate em pó" id="791" />
+      <edge source="Bolo de Cenoura com Cobertura de Brigadeiro" target="chocolate granulado" id="792" />
+      <edge source="leite condensado" target="Pudim de Leite Condensado Nestlé" id="793" />
+      <edge source="leite condensado" target="Brigadeirão Cremoso" id="794" />
+      <edge source="leite condensado" target="Manjar de Coco com Calda de Ameixa" id="795" />
+      <edge source="leite condensado" target="Torta de Limão Clássica com Merengue" id="796" />
+      <edge source="chocolate em pó" target="Brigadeirão Cremoso" id="797" />
+      <edge source="Brigadeirão Cremoso" target="leite de vaca" id="798" />
+      <edge source="Quindim Fácil" target="coco ralado seco" id="799" />
+      <edge source="Quindim Fácil" target="margarina derretida" id="800" />
+      <edge source="Quindim Fácil" target="gemas de ovo" id="801" />
+      <edge source="Quindim Fácil" target="corante alimentício amarelo" id="802" />
+      <edge source="Manjar de Coco com Calda de Ameixa" target="maisena" id="803" />
+      <edge source="Manjar de Coco com Calda de Ameixa" target="ameixas pretas" id="804" />
+      <edge source="Bolo de Fubá com Compota de Goiaba" target="goiaba vermelha" id="805" />
+      <edge source="Bolo de Fubá com Compota de Goiaba" target="açúcar cristal" id="806" />
+      <edge source="Bolo de Fubá com Compota de Goiaba" target="canela" id="807" />
+      <edge source="Bolo de Fubá com Compota de Goiaba" target="fubá mimoso" id="808" />
+      <edge source="Bolo de Fubá com Compota de Goiaba" target="sementes de erva-doce" id="809" />
+      <edge source="Torta de Limão Clássica com Merengue" target="raspas de casca de limão" id="810" />
+      <edge source="Torta de Limão Clássica com Merengue" target="claras" id="811" />
+      <edge source="Bolo de Chocolate Molhado" target="tablete de chocolate" id="812" />
+      <edge source="Bolo de Chocolate Molhado" target="açúcar em pó" id="813" />
+      <edge source="Farofa de Banana-da-Terra" target="farinha de milho amarela" id="814" />
+    </edges>
+  </graph>
+</gexf>

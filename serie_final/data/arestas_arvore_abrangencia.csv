@@ -1,0 +1,390 @@
+Source,Target,Type,Id,Label,Weight
+Empadão de Frango,caldo de galinha,Undirected,0,,1
+Costela na Panela de Pressão,bacon sem pele,Undirected,1,,1
+Lasanha de Berinjela,catupiry,Undirected,2,,1
+Bobó de Frango,tomate sem pele,Undirected,3,,1
+Caldo Verde,couve-manteiga,Undirected,4,,1
+Bolo de Cenoura com Cobertura de Brigadeiro,chocolate em pó,Undirected,5,,1
+Moqueca de Peixe,tomate em rodelas,Undirected,6,,1
+Picadinho de Carne Simples,vinho tinto,Undirected,7,,1
+Canja de Galinha Nutritiva,abobrinha ralada,Undirected,8,,1
+Ratatouille no Forno,tomate,Undirected,9,,1
+Feijoada Vegetariana,proteína de soja grossa,Undirected,10,,1
+Salada Colorida,tomate sweet grape,Undirected,11,,1
+Sopa de Tomate com Manjericão,sal,Undirected,12,,1
+Falsa Bacalhoada,filé de merluza,Undirected,13,,1
+Sopa de Capeletti,queijo parmesão ralado,Undirected,14,,1
+Torta de Liquidificador de Legumes,cebolinha,Undirected,15,,1
+Bolo de Fubá com Compota de Goiaba,açúcar cristal,Undirected,16,,1
+Lasanha de Berinjela,presunto fatiado,Undirected,17,,1
+Sopa de Feijão com Macarrão,feijão cozido,Undirected,18,,1
+Empadinha de Frango,noz-moscada,Undirected,19,,1
+Empadinha de Frango,ovos,Undirected,20,,1
+Esfiha Aberta Tipo Habib's,fermento biológico seco,Undirected,21,,1
+Torta de Frango Gratinada,colorau,Undirected,22,,1
+Salpicão de Frango,maionese,Undirected,23,,1
+Salada Colorida,beterraba,Undirected,24,,1
+Torta de Frango Gratinada,água gelada,Undirected,25,,1
+Carne Louca de Festa,molho de tomate pronto,Undirected,26,,1
+Bife à Parmegiana,queijo mussarela,Undirected,27,,1
+Maminha na Cerveja Preta,maminha,Undirected,28,,1
+Pão de Alho Caseiro,margarina,Undirected,29,,1
+Bolo de Fubá com Compota de Goiaba,canela,Undirected,30,,1
+Fricassê de Frango Fácil,batata palha,Undirected,31,,1
+Lasanha de Frango com Queijo,massa de lasanha,Undirected,32,,1
+Frango com Quiabo,limões,Undirected,33,,1
+Empadão de Frango,cheiro-verde,Undirected,34,,1
+Torta de Frango Gratinada,tomilho,Undirected,35,,1
+Tofu com Broa,levedura de cerveja,Undirected,36,,1
+Pão de Queijo de Liquidificador,polvilho doce,Undirected,37,,1
+Cuscuz Marroquino com Legumes,vagem holandesa,Undirected,38,,1
+Mousse de Chocolate Vegano,melado de cana,Undirected,39,,1
+Quibe de Abóbora,abóbora moranga,Undirected,40,,1
+Moqueca de Peixe,postas de cação ou garoupa,Undirected,41,,1
+Bacalhoada,sal,Undirected,42,,1
+Esfiha Aberta Tipo Habib's,açúcar refinado,Undirected,43,,1
+Bolo de Cenoura com Cobertura de Brigadeiro,farinha de trigo,Undirected,44,,1
+Tofu com Broa,tofu,Undirected,45,,1
+Tofu com Broa,sumo de limão,Undirected,46,,1
+Sopa de Mandioquinha com Carne Seca,mandioquinha,Undirected,47,,1
+Salada Colorida,pepino japonês,Undirected,48,,1
+Peixe ao Forno com Legumes,alcaparras,Undirected,49,,1
+Escondidinho com Carne Seca,sal,Undirected,50,,1
+Salada de Grão de Bico e Atum,atum em água,Undirected,51,,1
+Empadão de Frango,alho,Undirected,52,,1
+Sanduíche de Rabada,rabo bovino,Undirected,53,,1
+Maminha na Cerveja Preta,alho picado,Undirected,54,,1
+Carne Moída Simples,cebola,Undirected,55,,1
+Arroz de Couve-Flor,sal,Undirected,56,,1
+Carne de Panela,cenoura picada,Undirected,57,,1
+Torta de Frango Gratinada,queijo parmesão,Undirected,58,,1
+Peixe à Delícia,banana prata,Undirected,59,,1
+Sanduíche de Rabada,agrião,Undirected,60,,1
+Torta de Frango de Liquidificador,alecrim,Undirected,61,,1
+Enroladinho de Salsicha Fácil,massa para pastel,Undirected,62,,1
+Picadinho de Carne Simples,sal,Undirected,63,,1
+Empadão de Frango,ovo,Undirected,64,,1
+Cuscuz Marroquino com Legumes,salsão,Undirected,65,,1
+Fricassê de Frango Fácil,requeijão cremoso,Undirected,66,,1
+Salada Caesar,maionese caseira,Undirected,67,,1
+Salada de Grão de Bico e Atum,tomate cereja,Undirected,68,,1
+Frango Assado com Batatas (simples),alho,Undirected,69,,1
+Bolo de Fubá com Compota de Goiaba,sementes de erva-doce,Undirected,70,,1
+Sopa de Cebola,batatas pré-cozidas,Undirected,71,,1
+Salada Caesar,pão amanhecido,Undirected,72,,1
+Cuscuz Marroquino com Legumes,canela em pó,Undirected,73,,1
+Torta de Liquidificador de Legumes,seleta de legumes congelada,Undirected,74,,1
+Frango Xadrez,amendoim sem casca,Undirected,75,,1
+Moqueca de Peixe com Pirão,coentro,Undirected,76,,1
+Quibe de Abóbora,cebola,Undirected,77,,1
+Caldo Verde,água quente,Undirected,78,,1
+Empadão de Frango,farinha de trigo,Undirected,79,,1
+Isca de Peixe,fubá,Undirected,80,,1
+Pudim de Leite Condensado Nestlé,creme de leite,Undirected,81,,1
+Quibe de Abóbora,trigo para kibe,Undirected,82,,1
+Pão de Alho Caseiro,pão francês,Undirected,83,,1
+Bolo de Cenoura com Cobertura de Brigadeiro,chocolate granulado,Undirected,84,,1
+Frango à Passarinho de Forno,salsinha,Undirected,85,,1
+Empadão de Frango,requeijão,Undirected,86,,1
+Frango Xadrez,filé de frango em cubos,Undirected,87,,1
+Maminha na Cerveja Preta,creme de cebola,Undirected,88,,1
+Moqueca de Peixe,cebola em rodelas,Undirected,89,,1
+Moqueca de Peixe,caldo de camarão,Undirected,90,,1
+Ratatouille no Forno,curgete,Undirected,91,,1
+Sopa de Feijão com Macarrão,cenoura em cubinhos,Undirected,92,,1
+Moqueca de Banana-da-Terra,raiz de coentro,Undirected,93,,1
+Bife à Parmegiana,farinha de rosca,Undirected,94,,1
+Peixe ao Forno com Legumes,filé de peixe panga,Undirected,95,,1
+Bobó de Camarão,caldo de limão,Undirected,96,,1
+Tofu com Broa,sal marinho,Undirected,97,,1
+Bife à Parmegiana,catchup,Undirected,98,,1
+Croquete de Carne,sal,Undirected,99,,1
+Quibe de Abóbora,alho,Undirected,100,,1
+Costela na Panela de Pressão,sal,Undirected,101,,1
+Fricassê de Frango Fácil,azeitonas,Undirected,102,,1
+Ratatouille no Forno,pimenta preta,Undirected,103,,1
+Bobó de Frango,peito de frango,Undirected,104,,1
+Tofu com Broa,pimenta,Undirected,105,,1
+Gratinado de Frango,queijo ralado,Undirected,106,,1
+Frango Assado com Batatas (simples),maionese,Undirected,107,,1
+Mousse de Chocolate Vegano,cacau em pó,Undirected,108,,1
+Esfiha Aberta Tipo Habib's,hortelã,Undirected,109,,1
+Pão de Alho Caseiro,alho amassado,Undirected,110,,1
+Salmão ao Molho de Alcaparras,filé de anchovas,Undirected,111,,1
+Tofu com Broa,folha de louro,Undirected,112,,1
+Canja de Galinha Nutritiva,caldo de galinha,Undirected,113,,1
+Empadão de Frango,cebola picada,Undirected,114,,1
+Escondidinho com Carne Seca,carne seca,Undirected,115,,1
+Tofu com Broa,broa de milho,Undirected,116,,1
+Ratatouille no Forno,orégãos,Undirected,117,,1
+Tofu com Broa,alho,Undirected,118,,1
+Ratatouille no Forno,cebola branca,Undirected,119,,1
+Salada de Grão de Bico e Atum,salsa,Undirected,120,,1
+Salada Caesar,filé de anchova,Undirected,121,,1
+Sopa de Abóbora com Gengibre,gengibre em pó,Undirected,122,,1
+Salada de Maionese Simples,ervilha,Undirected,123,,1
+Frango Xadrez,glutamato monossódico,Undirected,124,,1
+Farofa de Banana-da-Terra,farinha de milho amarela,Undirected,125,,1
+Lombo Assado,lombo de porco,Undirected,126,,1
+Carne de Panela,salsa desidratada,Undirected,127,,1
+Frango Assado com Batatas (simples),batatas,Undirected,128,,1
+Bolo de Chocolate Molhado,açúcar em pó,Undirected,129,,1
+Torta de Frango de Liquidificador,palmito,Undirected,130,,1
+Bolo de Fubá com Compota de Goiaba,goiaba vermelha,Undirected,131,,1
+Salmão ao Molho de Alcaparras,alcaparra,Undirected,132,,1
+Frango com Quiabo,quiabo,Undirected,133,,1
+Frango com Quiabo,frango inteiro,Undirected,134,,1
+Manjar de Coco com Calda de Ameixa,leite,Undirected,135,,1
+Brigadeirão Cremoso,leite de vaca,Undirected,136,,1
+Frango Assado com Batatas (simples),frango em pedaços,Undirected,137,,1
+Esfiha Aberta Tipo Habib's,água morna,Undirected,138,,1
+Empadão de Frango,leite,Undirected,139,,1
+Gratinado de Frango,molho de tomate,Undirected,140,,1
+Croquete de Carne,carne moída cozida,Undirected,141,,1
+Salada de Maionese Simples,cenouras,Undirected,142,,1
+Torta de Frango Gratinada,clara,Undirected,143,,1
+Bobó de Camarão,água,Undirected,144,,1
+Frango à Passarinho de Forno,alho,Undirected,145,,1
+Quindim Fácil,coco ralado seco,Undirected,146,,1
+Strogonoff de Carne,água fervente,Undirected,147,,1
+Empadão de Frango,água fervente,Undirected,148,,1
+Salada de Maionese Simples,aji-no-moto,Undirected,149,,1
+Sopa de Cebola,cebola fatiada,Undirected,150,,1
+Frango Assado com Batatas (simples),molho de tomate,Undirected,151,,1
+Salada de Grão de Bico e Atum,grão de bico cozido,Undirected,152,,1
+Enroladinho de Salsicha Fácil,água,Undirected,153,,1
+Empadão de Frango,manteiga,Undirected,154,,1
+Enroladinho de Salsicha Fácil,óleo de milho,Undirected,155,,1
+Mousse de Chocolate Vegano,abacate,Undirected,156,,1
+Maminha na Cerveja Preta,cerveja preta,Undirected,157,,1
+Risoto de Cogumelos (vegetariano),manteiga,Undirected,158,,1
+Torta de Liquidificador de Legumes,sal,Undirected,159,,1
+Bobó de Camarão,sementes de coentro,Undirected,160,,1
+Cuscuz Marroquino com Legumes,abóbora japonesa,Undirected,161,,1
+Isca de Peixe,filé de cação,Undirected,162,,1
+Bolinho de Chuva,farinha de trigo,Undirected,163,,1
+Sopa de Tomate com Manjericão,rum,Undirected,164,,1
+Couve-Flor Gratinada,cheiro-verde,Undirected,165,,1
+Costela na Panela de Pressão,costela bovina,Undirected,166,,1
+Caldo Verde,caldo de bacon,Undirected,167,,1
+Manjar de Coco com Calda de Ameixa,maisena,Undirected,168,,1
+Bife à Parmegiana,alho,Undirected,169,,1
+Carne Louca de Festa,miolo de acém,Undirected,170,,1
+Bobó de Camarão,cascas e cabeças de camarão,Undirected,171,,1
+Moqueca de Peixe com Pirão,farinha de mandioca,Undirected,172,,1
+Sopa de Mandioquinha com Carne Seca,sal,Undirected,173,,1
+Sopa de Cebola,alho,Undirected,174,,1
+Ratatouille no Forno,alho,Undirected,175,,1
+Lasanha de Berinjela,azeitonas sem caroço,Undirected,176,,1
+Feijoada Vegetariana,sal,Undirected,177,,1
+Coxinha de Frango com Catupiri,colorífico,Undirected,178,,1
+Maminha na Cerveja Preta,molho de tomate,Undirected,179,,1
+Peixe ao Forno com Legumes,pimentão amarelo,Undirected,180,,1
+Bolo de Fubá com Compota de Goiaba,sal,Undirected,181,,1
+Salmão ao Molho de Alcaparras,filé de salmão,Undirected,182,,1
+Torta de Frango de Liquidificador,fermento químico em pó,Undirected,183,,1
+Petisco de Peixe,peixe (tilápia) grelhado desfiado,Undirected,184,,1
+Bobó de Camarão,alho,Undirected,185,,1
+Empadinha de Frango,cravo-da-índia,Undirected,186,,1
+Torta de Frango Gratinada,frango desfiado,Undirected,187,,1
+Pão de Queijo de Liquidificador,sal,Undirected,188,,1
+Ratatouille no Forno,cenoura,Undirected,189,,1
+Moqueca de Peixe com Pirão,pimentão,Undirected,190,,1
+Manjar de Coco com Calda de Ameixa,ameixas pretas,Undirected,191,,1
+Cuscuz Marroquino com Legumes,pimenta chilli,Undirected,192,,1
+Moqueca de Banana-da-Terra,pimentão verde,Undirected,193,,1
+Canja de Galinha Nutritiva,salsa picada,Undirected,194,,1
+Salmão ao Molho de Alcaparras,alho,Undirected,195,,1
+Salada de Maionese Simples,páprica,Undirected,196,,1
+Lasanha de Berinjela,queijo mussarela fatiado,Undirected,197,,1
+Sopa de Tomate com Manjericão,suco de laranja,Undirected,198,,1
+Torta de Frango Gratinada,milho,Undirected,199,,1
+Moqueca de Peixe com Pirão,alho,Undirected,200,,1
+Frango Xadrez,gengibre fresco,Undirected,201,,1
+Lombo Assado,alho,Undirected,202,,1
+Salada Caesar,alface-romana,Undirected,203,,1
+Picadinho de Carne Simples,tomate pelado,Undirected,204,,1
+Caldo Verde,batatas,Undirected,205,,1
+Bolo de Fubá com Compota de Goiaba,fubá mimoso,Undirected,206,,1
+Tofu com Broa,azeite,Undirected,207,,1
+Bolo de Fubá com Compota de Goiaba,açúcar,Undirected,208,,1
+Cuscuz Marroquino com Legumes,grão-de-bico cozido,Undirected,209,,1
+Petisco de Peixe,sal,Undirected,210,,1
+Enroladinho de Salsicha Fácil,salsicha,Undirected,211,,1
+Moqueca de Peixe,pimentão vermelho em rodelas,Undirected,212,,1
+Picadinho de Carne Simples,patinho em cubos,Undirected,213,,1
+Falsa Bacalhoada,sal,Undirected,214,,1
+Empadão de Frango,gema,Undirected,215,,1
+Bacalhoada,azeitona verde,Undirected,216,,1
+Torta de Limão Clássica com Merengue,raspas de casca de limão,Undirected,217,,1
+Salada Colorida,alface americana,Undirected,218,,1
+Carne de Panela,massa de tomate,Undirected,219,,1
+Pão de Queijo de Liquidificador,óleo de soja,Undirected,220,,1
+Cuscuz Marroquino com Legumes,cuscuz marroquino,Undirected,221,,1
+Quibe de Abóbora,cominho,Undirected,222,,1
+Salpicão de Frango,cenoura ralada,Undirected,223,,1
+Moqueca de Banana-da-Terra,pimenta-de-cheiro,Undirected,224,,1
+Empadão de Frango,peito de frango desfiado,Undirected,225,,1
+Mousse de Chocolate Vegano,essência de baunilha,Undirected,226,,1
+Quindim Fácil,margarina derretida,Undirected,227,,1
+Frango Assado com Laranja,frango,Undirected,228,,1
+Empadinha de Frango,gemas,Undirected,229,,1
+Brigadeirão Cremoso,manteiga,Undirected,230,,1
+Couve-Flor Gratinada,tomate picadinho,Undirected,231,,1
+Sopa de Feijão com Macarrão,caldo de carne,Undirected,232,,1
+Caldo Verde,cebolinha-verde,Undirected,233,,1
+Frango com Quiabo,alho,Undirected,234,,1
+Frango Assado com Laranja,laranjas,Undirected,235,,1
+Salada Colorida,ovos de codorna,Undirected,236,,1
+Frango à Passarinho de Forno,frango cortado à passarinho,Undirected,237,,1
+Torta de Frango de Liquidificador,milho em conserva,Undirected,238,,1
+Sopa de Cebola,pimenta do reino,Undirected,239,,1
+Torta de Frango de Liquidificador,tomate picado,Undirected,240,,1
+Torta de Frango de Liquidificador,sal,Undirected,241,,1
+Torta de Frango Gratinada,fermento em pó,Undirected,242,,1
+Torta de Liquidificador de Legumes,cebola congelada,Undirected,243,,1
+Filé de Peixe ao Forno,shoyu,Undirected,244,,1
+Sopa de Abóbora com Gengibre,sal,Undirected,245,,1
+Bobó de Camarão,mandioca,Undirected,246,,1
+Salpicão de Frango,peito de frango cozido e desfiado,Undirected,247,,1
+Peixe à Delícia,molho branco,Undirected,248,,1
+Sanduíche de Rabada,páprica picante,Undirected,249,,1
+Moqueca de Banana-da-Terra,alho,Undirected,250,,1
+Frango Xadrez,amido de milho,Undirected,251,,1
+Carne Louca de Festa,alho,Undirected,252,,1
+Empadão de Frango,azeitonas verdes,Undirected,253,,1
+Sopa de Tomate com Manjericão,manjericão,Undirected,254,,1
+Bobó de Camarão,pimenta dedo-de-moça,Undirected,255,,1
+Lombo Assado,laranja,Undirected,256,,1
+Esfiha Aberta Tipo Habib's,queijo branco,Undirected,257,,1
+Bolo de Chocolate Molhado,tablete de chocolate,Undirected,258,,1
+Salada de Grão de Bico e Atum,sal,Undirected,259,,1
+Bobó de Camarão,camarão limpo,Undirected,260,,1
+Carne de Panela,alho granulado,Undirected,261,,1
+Canja de Galinha Nutritiva,batata picada,Undirected,262,,1
+Strogonoff de Carne,molho inglês,Undirected,263,,1
+Risoto de Cogumelos (vegetariano),caldo de legumes,Undirected,264,,1
+Peixe à Delícia,sal,Undirected,265,,1
+Feijoada Vegetariana,abóbora de pescoço,Undirected,266,,1
+Fricassê de Frango Fácil,queijo,Undirected,267,,1
+Bacalhoada,lombo de bacalhau,Undirected,268,,1
+Sopa de Capeletti,capeletti,Undirected,269,,1
+Feijoada Vegetariana,feijão preto,Undirected,270,,1
+Costela na Panela de Pressão,cebolas em rodelas,Undirected,271,,1
+Carne Louca de Festa,cebola grande,Undirected,272,,1
+Bobó de Frango,alho,Undirected,273,,1
+Picadinho de Carne Simples,cebola ralada,Undirected,274,,1
+Pão de Alho Caseiro,maionese,Undirected,275,,1
+Lasanha de Berinjela,berinjelas,Undirected,276,,1
+Torta de Limão Clássica com Merengue,claras,Undirected,277,,1
+Coxinha de Frango com Catupiri,pimenta vermelha,Undirected,278,,1
+Salada de Macarrão com Atum e Maionese,atum ralado,Undirected,279,,1
+Strogonoff de Frango,champignon,Undirected,280,,1
+Sopa de Mandioquinha com Carne Seca,carne seca desfiada,Undirected,281,,1
+Torta de Frango Gratinada,tomate-cereja,Undirected,282,,1
+Sopa de Feijão com Macarrão,macarrão,Undirected,283,,1
+Isca de Peixe,sal,Undirected,284,,1
+Bolo de Chocolate Molhado,manteiga,Undirected,285,,1
+Ratatouille no Forno,pimento verde,Undirected,286,,1
+Strogonoff de Frango,ketchup,Undirected,287,,1
+Salada de Macarrão com Atum e Maionese,suco de limão,Undirected,288,,1
+Gratinado de Frango,manteiga derretida,Undirected,289,,1
+Strogonoff de Frango,alho,Undirected,290,,1
+Torta de Frango Gratinada,brócolis,Undirected,291,,1
+Fricassê de Frango Fácil,alho,Undirected,292,,1
+Frango com Quiabo,cominho em pó,Undirected,293,,1
+Coxinha Simples,sal,Undirected,294,,1
+Carne de Panela,tomate sem sementes picado,Undirected,295,,1
+Bobó de Camarão,ramos de coentro,Undirected,296,,1
+Empadão de Frango,milho verde,Undirected,297,,1
+Frango à Passarinho de Forno,limão,Undirected,298,,1
+Salada de Grão de Bico e Atum,abacate,Undirected,299,,1
+Carne de Panela,sal,Undirected,300,,1
+Frango Assado com Batatas (simples),sal,Undirected,301,,1
+Moqueca de Banana-da-Terra,banana-da-terra,Undirected,302,,1
+Bife à Parmegiana,mostarda,Undirected,303,,1
+Bobó de Camarão,leite de coco,Undirected,304,,1
+Frango Assado com Laranja,vinho branco,Undirected,305,,1
+Bobó de Camarão,pimentão vermelho,Undirected,306,,1
+Tofu com Broa,molho de soja,Undirected,307,,1
+Tofu com Broa,cúrcuma,Undirected,308,,1
+Quibe de Abóbora,canela-da-china em pó,Undirected,309,,1
+Canja de Galinha Nutritiva,alho-poró,Undirected,310,,1
+Salada de Macarrão com Atum e Maionese,maionese,Undirected,311,,1
+Peixe ao Forno com Legumes,molho de tomate,Undirected,312,,1
+Quibe de Abóbora,pimenta-do-reino,Undirected,313,,1
+Empadinha de Frango,alho,Undirected,314,,1
+Strogonoff de Carne,coxão-mole em tiras,Undirected,315,,1
+Filé de Peixe ao Forno,filé de pintado,Undirected,316,,1
+Caldo Verde,linguiça portuguesa,Undirected,317,,1
+Risoto de Cogumelos (vegetariano),arroz,Undirected,318,,1
+Bobó de Frango,mandioca cozida,Undirected,319,,1
+Bacalhoada,batata asterix,Undirected,320,,1
+Carne Moída Simples,tempero completo,Undirected,321,,1
+Cuscuz Marroquino com Legumes,sal,Undirected,322,,1
+Salada de Macarrão com Atum e Maionese,macarrão parafuso,Undirected,323,,1
+Tofu com Broa,couve coração,Undirected,324,,1
+Sanduíche de Rabada,sal,Undirected,325,,1
+Frango Xadrez,óleo de gergelim,Undirected,326,,1
+Salada de Macarrão com Atum e Maionese,cheiro verde,Undirected,327,,1
+Peixe ao Forno com Legumes,batata cozida,Undirected,328,,1
+Peixe ao Forno com Legumes,grão de bico,Undirected,329,,1
+Bacalhoada,cabeça de alho,Undirected,330,,1
+Quindim Fácil,gemas de ovo,Undirected,331,,1
+Falsa Bacalhoada,azeitonas pretas,Undirected,332,,1
+Moqueca de Peixe,leite de coco,Undirected,333,,1
+Salpicão de Frango,salsinha picada,Undirected,334,,1
+Bobó de Camarão,azeite de dendê,Undirected,335,,1
+Couve-Flor Gratinada,mussarela,Undirected,336,,1
+Tofu com Broa,alho francês,Undirected,337,,1
+Carne de Panela,coxão mole em bifes,Undirected,338,,1
+Quindim Fácil,corante alimentício amarelo,Undirected,339,,1
+Bife à Parmegiana,óleo,Undirected,340,,1
+Salada Colorida,sal,Undirected,341,,1
+Arroz de Couve-Flor,couve-flor,Undirected,342,,1
+Croquete de Carne,batata,Undirected,343,,1
+Sopa de Cebola,caldo de carne,Undirected,344,,1
+Sopa de Capeletti,caldo de galinha,Undirected,345,,1
+Bolo de Cenoura com Cobertura de Brigadeiro,leite condensado,Undirected,346,,1
+Frango Assado com Laranja,sal,Undirected,347,,1
+Sopa de Cebola,creme de leite,Undirected,348,,1
+Carne Moída Simples,extrato de tomate,Undirected,349,,1
+Lasanha de Frango com Queijo,sal,Undirected,350,,1
+Coxinha de Frango com Catupiri,sal,Undirected,351,,1
+Frango Xadrez,cebolinha verde,Undirected,352,,1
+Lasanha de Berinjela,molho de tomate,Undirected,353,,1
+Bife à Parmegiana,carne para bife,Undirected,354,,1
+Moqueca de Peixe com Pirão,peixe (corvina),Undirected,355,,1
+Moqueca de Peixe com Pirão,camarão seco,Undirected,356,,1
+Lasanha de Frango com Queijo,mussarela ralada,Undirected,357,,1
+Coxinha de Frango com Catupiri,clara de ovo,Undirected,358,,1
+Salada de Maionese Simples,maionese,Undirected,359,,1
+Lombo Assado,azeite extra virgem,Undirected,360,,1
+Filé de Peixe ao Forno,alho,Undirected,361,,1
+Salpicão de Frango,cebola picadinha,Undirected,362,,1
+Torta de Frango Gratinada,alho,Undirected,363,,1
+Sopa de Mandioquinha com Carne Seca,pimenta de cheiro,Undirected,364,,1
+Cuscuz Marroquino com Legumes,abobrinha,Undirected,365,,1
+Carne de Panela,pimentão picado,Undirected,366,,1
+Strogonoff de Carne,champignon em conserva,Undirected,367,,1
+Quindim Fácil,leite de coco,Undirected,368,,1
+Frango Xadrez,sal,Undirected,369,,1
+Frango Assado com Batatas (simples),tempero para aves,Undirected,370,,1
+Lasanha de Frango com Queijo,presunto,Undirected,371,,1
+Farofa de Banana-da-Terra,sal,Undirected,372,,1
+Coxinha de Frango com Catupiri,catupiri,Undirected,373,,1
+Risoto de Cogumelos (vegetariano),cogumelos fatiados,Undirected,374,,1
+Moqueca de Banana-da-Terra,casca de limão,Undirected,375,,1
+Salpicão de Frango,uva passa,Undirected,376,,1
+Esfiha Aberta Tipo Habib's,sal,Undirected,377,,1
+Torta de Limão Clássica com Merengue,farinha de trigo,Undirected,378,,1
+Salada Caesar,alho,Undirected,379,,1
+Moqueca de Peixe,pimentão verde em rodelas,Undirected,380,,1
+Salpicão de Frango,maçã picada,Undirected,381,,1
+Canja de Galinha Nutritiva,quinoa mista,Undirected,382,,1
+Peixe à Delícia,filé de pargo,Undirected,383,,1
+Bife à Parmegiana,orégano,Undirected,384,,1
+Ratatouille no Forno,cebola roxa,Undirected,385,,1
+Frango à Passarinho de Forno,páprica doce,Undirected,386,,1
+Esfiha Aberta Tipo Habib's,carne moída,Undirected,387,,1
+Salada de Macarrão com Atum e Maionese,muçarela,Undirected,388,,1

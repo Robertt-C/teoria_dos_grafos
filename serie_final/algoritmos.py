@@ -339,6 +339,22 @@ class Grafo():
       print(f"{no}: {vizinhos}")
 
 
+  def exportar_arestas_csv(self, caminho_arquivo: str) -> None:
+      """
+      Exporta as arestas do grafo para um arquivo CSV no formato:
+      Source,Target,Type,Id,Label,Weight
+      """
+      with open(caminho_arquivo, 'w', encoding='UTF-8') as arquivo:
+          # Escreve o cabeçalho
+          arquivo.write("Source,Target,Type,Id,Label,Weight\n")
+          
+          # Escreve cada aresta
+          for idx, (origem, destino, peso) in enumerate(self.arestas):
+              # Se o peso for None, use 1 como padrão
+              peso_str = "1" if peso is None else str(peso)
+              arquivo.write(f"{origem},{destino},Undirected,{idx},,{peso_str}\n")
+
+
 # Funções de serie_5 - grafos isomorfos
 def grafos_isomorfos(grafo1: Grafo, grafo2: Grafo) -> bool:
   """Verifica se dois grafos são isomorfos"""
@@ -365,6 +381,7 @@ def grafos_isomorfos(grafo1: Grafo, grafo2: Grafo) -> bool:
       return True
     
   return False
+
 
 # Funções de serie_5d - operações em grafos
 def is_connected(grafo: Grafo) -> bool:
@@ -840,3 +857,71 @@ def arvore_central(G: Grafo, num_arvores: int = 10) -> Grafo:
                 melhor_arvore = arvore
     
     return melhor_arvore if melhor_arvore else (arvores[0] if arvores else Grafo())
+
+
+def recomendar_receitas_por_ingredientes(G: Grafo, ingredientes: list[str], top_n: int = 5) -> list[tuple[str, float, list]]:
+    """
+    Recomenda receitas com base nos ingredientes disponíveis.
+    
+    Args:
+        G: O grafo contendo receitas e ingredientes
+        ingredientes: Lista de ingredientes disponíveis
+        top_n: Número de receitas a recomendar
+        
+    Returns:
+        Lista de tuplas (nome_receita, porcentagem_ingredientes, ingredientes_faltantes)
+    """
+    # Verificar se os ingredientes existem no grafo
+    ingredientes_validos = [ing for ing in ingredientes if ing in G.nos]
+    
+    if not ingredientes_validos:
+        print("Nenhum dos ingredientes fornecidos foi encontrado no grafo.")
+        return []
+    
+    # Cria a lista de adjacência se ainda não existe
+    if not G.lista_adjacencia:
+        G.cria_lista_adjacencia()
+    
+    # Identifica potenciais receitas (nós conectados aos ingredientes)
+    potenciais_receitas = set()
+    for ingrediente in ingredientes_validos:
+        potenciais_receitas.update(G.nos_adjacentes(ingrediente))
+    
+    # Remove nós que são ingredientes da lista de ingredientes válidos
+    potenciais_receitas = potenciais_receitas - set(ingredientes_validos)
+    
+    # Analisa cada potencial receita
+    resultados = []
+    
+    for receita in potenciais_receitas:
+        # Obtém todos os ingredientes necessários para esta receita
+        ingredientes_necessarios = set(G.nos_adjacentes(receita))
+        
+        # Filtra para manter apenas ingredientes que parecem ser ingredientes
+        # (assumindo que ingredientes não começam com maiúscula e/ou têm menos de 3 palavras)
+        ingredientes_filtrados = {ing for ing in ingredientes_necessarios 
+                              if ing[0].islower() or len(ing.split()) < 3}
+        
+        # Se não tiver ingredientes após a filtragem, não é uma receita
+        if not ingredientes_filtrados:
+            continue
+        
+        # Total de ingredientes necessários
+        total_ingredientes = len(ingredientes_filtrados)
+        
+        # Ingredientes disponíveis para esta receita
+        disponiveis = ingredientes_filtrados.intersection(ingredientes_validos)
+        count_disponiveis = len(disponiveis)
+        
+        # Ingredientes faltantes
+        faltantes = ingredientes_filtrados - set(ingredientes_validos)
+        
+        # Calcula porcentagem de cobertura
+        porcentagem = (count_disponiveis / total_ingredientes) * 100
+        
+        # Adiciona aos resultados
+        resultados.append((receita, porcentagem, list(faltantes)))
+    
+    # Ordena por porcentagem e retorna os top_n
+    resultados.sort(key=lambda x: x[1], reverse=True)
+    return resultados[:top_n]

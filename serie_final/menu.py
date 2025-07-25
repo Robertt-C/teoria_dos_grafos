@@ -1,4 +1,4 @@
-from algoritmos import Grafo, e_arvore, e_subgrafo_arvore, e_arvore_abrangencia, encontrar_centros, excentricidades
+from algoritmos import Grafo, e_arvore, e_subgrafo_arvore, e_arvore_abrangencia, encontrar_centros, excentricidades, recomendar_receitas_por_ingredientes
 from algoritmos import grafos_isomorfos, is_connected, is_eulerian, has_hamiltonian_cycle
 from algoritmos import graph_union, graph_intersection, graph_symmetric_difference
 from algoritmos import remove_vertex, remove_edge, merge_vertices
@@ -57,7 +57,8 @@ def menu_operacoes_basicas(G: Grafo):
         print("11 - Verificar se um grafo é subgrafo de outro")
         print("12 - Verificar se dois grafos são subgrafo de outro e se são disjuntos")
         print("13 - Mostrar 5 subgrafos")
-        print("14 - Voltar ao menu principal")
+        print("14 - Exportar arestas para CSV")
+        print("15 - Voltar ao menu principal")
         escolha = input("Escolha uma opção: ")
 
         if escolha == '1':
@@ -153,6 +154,10 @@ def menu_operacoes_basicas(G: Grafo):
         elif escolha == '13':
             G.mostrar_cinco_subgrafos()
         elif escolha == '14':
+            caminho_arquivo = input("Digite o caminho para salvar o arquivo CSV (ex: arestas_export.csv): ")
+            G.exportar_arestas_csv(caminho_arquivo)
+            print(f"Arquivo salvo com sucesso em: {caminho_arquivo}")
+        elif escolha == '15':
             return
         else:
             print("Opção inválida.")
@@ -415,6 +420,41 @@ def menu_operacoes_arvores_avancadas(G: Grafo):
     
     return G
 
+def menu_recomendacao_receitas(G: Grafo):
+    """Menu para recomendação de receitas baseada nos ingredientes disponíveis."""
+    print("\n--- Recomendação de Receitas ---")
+    print("Digite os ingredientes disponíveis separados por vírgula:")
+    
+    ingredientes_input = input("> ")
+    ingredientes = [i.strip() for i in ingredientes_input.split(',')]
+    
+    if not ingredientes:
+        print("Nenhum ingrediente fornecido.")
+        return
+    
+    try:
+        top_n = int(input("Quantidade de receitas para recomendar (padrão: 5): ") or "5")
+    except ValueError:
+        top_n = 5
+    
+    recomendacoes = recomendar_receitas_por_ingredientes(G, ingredientes, top_n)
+    
+    if recomendacoes:
+        print("\nReceitas recomendadas com base nos seus ingredientes:")
+        print("----------------------------------------------------")
+        
+        for i, (receita, porcentagem, faltantes) in enumerate(recomendacoes, 1):
+            print(f"{i}. {receita}")
+            print(f"   Compatibilidade: {porcentagem:.1f}%")
+            
+            if faltantes:
+                print(f"   Ingredientes faltantes ({len(faltantes)}): {', '.join(faltantes)}")
+            else:
+                print("   Você tem todos os ingredientes necessários!")
+            print()
+    else:
+        print("Não foi possível encontrar receitas compatíveis com os ingredientes informados.")
+
 def menu_principal():
     G = Grafo()
     
@@ -428,7 +468,8 @@ def menu_principal():
         print("6 - Operações de conjunto com grafos")
         print("7 - Modificar grafo")
         print("8 - Operações com árvores")
-        print("9 - Operações avançadas com árvores")  # Nova opção
+        print("9 - Operações avançadas com árvores")
+        print("10 - Recomendação de receitas")
         print("0 - Sair")
         
         escolha = input("\nEscolha uma opção: ")
@@ -479,6 +520,11 @@ def menu_principal():
                 print("Grafo vazio! Por favor, crie um grafo primeiro.")
                 continue
             G = menu_operacoes_arvores_avancadas(G)
+        elif escolha == '10':
+            if not G.nos:
+                print("Carregue um grafo de receitas primeiro (opção 2).")
+                continue
+            menu_recomendacao_receitas(G)
         else:
             print("Opção inválida!")
 
